@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDEC6703577749638EAAA90B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDDB70C39AD446E785BD1986 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				54AE417B3D9A35A3DB1ADE86 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FE7BACDB0A5149269CA37B41 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E15DC6A082F34371AF2EA100 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				45D8FFE7F56CE7E7EA58F948 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				72C682E5553D4229878A5E5D /* PBXTargetDependency */,
+				77C6458B950444C78A03D663 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		334097FAF3FF49AC9957F2CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXBuildFile; fileRef = E5CF5C2476F540398CDE1DD0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */; };
+		334C3A0ED7AF4790A9DB9972 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXBuildFile; fileRef = E088828086BA480BB3C3D532 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */; };
+		4F66993201D242CFBD3B19BC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXBuildFile; fileRef = EC15C990B0C04BE5A681DF10 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */; };
+		5FA87850F4DC450F9EF30CCE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXBuildFile; fileRef = 6F35B9091F824596934753D1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */; };
+		711CB21ADB9A4B2FB5D4B60C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXBuildFile; fileRef = D1CC0524BEE341D58ACC3208 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */; };
+		76BE584B68564182999A3C5C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXBuildFile; fileRef = 7FB10DC5E4A440158BE93E6C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */; };
+		7AF1051560654F56A615FEBD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXBuildFile; fileRef = E84C9D09175347DDA70F2B6B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */; };
+		7CA2CDA28B44463BBFE88B8D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXBuildFile; fileRef = 9EBB5C13B00C4547A94C3694 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */; };
+		7DFCE7DDB5B4430E96E65A68 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXBuildFile; fileRef = 8C05225BDA214773A8C794B2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */; };
+		8512C4B9146A43F09A9BF033 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXBuildFile; fileRef = 3845F361A21F48C0993168D6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */; };
+		8F392A5AC08348E89D93C4BD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 01599570A82541ADA222A1C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */; };
+		98D6CDF71EA34E508986F97F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXBuildFile; fileRef = F2D633D3EFF64142800B74FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */; };
+		9B3DCE2C663C4B84B25412C2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXBuildFile; fileRef = B4814EA0774A4C97ADE0C49B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */; };
+		9C4AD59175D24C7CA3549B60 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXBuildFile; fileRef = 592CD5227B114444AD3625A6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */; };
+		9DC799A3A36D48BEAB3BA121 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 1D6B0F5978F84C61BF942CF2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */; };
+		9E185CD110064FCEBA2AF869 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXBuildFile; fileRef = 94B96386415B4AD7BFBE5BDB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */; };
+		AD974966955C4DA4B6D087E4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXBuildFile; fileRef = 3E91D82B66344EC193A8CB38 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */; };
+		B45A19F250E64457A0C32E7C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXBuildFile; fileRef = 377213BE90CF48759DBC6066 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */; };
+		B645157744D647B98903101A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXBuildFile; fileRef = 65296A320FED4CCEA65D5EC1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */; };
+		B9CC4612DF804F2EBB608AAC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXBuildFile; fileRef = 610B406423C04BFEB98132DC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */; };
+		C39720E593F649418C7EE3E1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXBuildFile; fileRef = 5E92EAE417134697B241A586 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */; };
+		C421FBBDE6F246C5B47887C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXBuildFile; fileRef = 738269722389416C9B2D7241 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */; };
+		C6ABF88E751D4404BAD1B467 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = D5726CD3EA1041DC9BEA0413 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		D0D507E9193142559086E52F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXBuildFile; fileRef = A0EA319EBBAC42A7B02EA74E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */; };
+		D75A670B1C7B4F6F822DB59A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = E1E4AAF813604DA598FA5444 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */; };
+		DCBE10FCEDC1415EAD27EBC3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 81D19CF98A1045B28482381B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */; };
+		DEC65E0ECCBB407D8FA0095C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXBuildFile; fileRef = C5A1F1368E674386844FA175 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */; };
+		EFC3AC8F87E145EFA742167D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = ACA3FCE775A54DF3B82834DB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */; };
+		FF6115E32ADC43BCA0C8A7D8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXBuildFile; fileRef = 4728786C294640ED961D0CD8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3F7D4DA54EBB419E8945BA93 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FB54848C6B3844A7B739919D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		04215A6DA12E48E990A5A649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F44B4022164E5E88414E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E75CCEBD214C7482E15B44;
+			remoteInfo = hostchecker;
+		};
+		5DA5648B10914C72BE1AAB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F44B4022164E5E88414E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+		72EA88E43FE646DBB74F7B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F44B4022164E5E88414E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01599570A82541ADA222A1C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		1D6B0F5978F84C61BF942CF2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckerprocessor.cpp; path = source/hostcheckerprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		377213BE90CF48759DBC6066 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheck.h; path = source/hostcheck.h; sourceTree = SOURCE_ROOT; };
+		3845F361A21F48C0993168D6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = knob.png; path = resource/knob.png; sourceTree = SOURCE_ROOT; };
+		3E91D82B66344EC193A8CB38 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = editorsizecontroller.cpp; path = source/editorsizecontroller.cpp; sourceTree = SOURCE_ROOT; };
+		4728786C294640ED961D0CD8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processsetupcheck.h; path = source/processsetupcheck.h; sourceTree = SOURCE_ROOT; };
+		592CD5227B114444AD3625A6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = bypass.png; path = resource/bypass.png; sourceTree = SOURCE_ROOT; };
+		5E92EAE417134697B241A586 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogger.h; path = source/eventlogger.h; sourceTree = SOURCE_ROOT; };
+		610B406423C04BFEB98132DC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cids.h; path = source/cids.h; sourceTree = SOURCE_ROOT; };
+		65296A320FED4CCEA65D5EC1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logevents.h; path = source/logevents.h; sourceTree = SOURCE_ROOT; };
+		6F35B9091F824596934753D1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = editorsizecontroller.h; path = source/editorsizecontroller.h; sourceTree = SOURCE_ROOT; };
+		738269722389416C9B2D7241 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckercontroller.h; path = source/hostcheckercontroller.h; sourceTree = SOURCE_ROOT; };
+		7FB10DC5E4A440158BE93E6C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckercontroller.cpp; path = source/hostcheckercontroller.cpp; sourceTree = SOURCE_ROOT; };
+		81D19CF98A1045B28482381B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8C05225BDA214773A8C794B2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processcontextcheck.cpp; path = source/processcontextcheck.cpp; sourceTree = SOURCE_ROOT; };
+		94B96386415B4AD7BFBE5BDB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchangescheck.h; path = source/parameterchangescheck.h; sourceTree = SOURCE_ROOT; };
+		9EBB5C13B00C4547A94C3694 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheck.cpp; path = source/hostcheck.cpp; sourceTree = SOURCE_ROOT; };
+		A0EA319EBBAC42A7B02EA74E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextcheck.h; path = source/processcontextcheck.h; sourceTree = SOURCE_ROOT; };
+		A75AFBFBB7F744E5A99CB70A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ACA3FCE775A54DF3B82834DB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogdatabrowsersource.cpp; path = source/eventlogdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
+		B1EC4AFAF1DB4203867DA2F4 /* hostchecker */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = hostchecker.bundle/Contents/MacOS/hostchecker; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4814EA0774A4C97ADE0C49B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlistcheck.cpp; path = source/eventlistcheck.cpp; sourceTree = SOURCE_ROOT; };
+		C5A1F1368E674386844FA175 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		D1CC0524BEE341D58ACC3208 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlistcheck.h; path = source/eventlistcheck.h; sourceTree = SOURCE_ROOT; };
+		D5726CD3EA1041DC9BEA0413 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		E088828086BA480BB3C3D532 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchangescheck.cpp; path = source/parameterchangescheck.cpp; sourceTree = SOURCE_ROOT; };
+		E1E4AAF813604DA598FA5444 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogdatabrowsersource.h; path = source/eventlogdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
+		E5CF5C2476F540398CDE1DD0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckerprocessor.h; path = source/hostcheckerprocessor.h; sourceTree = SOURCE_ROOT; };
+		E84C9D09175347DDA70F2B6B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogger.cpp; path = source/eventlogger.cpp; sourceTree = SOURCE_ROOT; };
+		EC15C990B0C04BE5A681DF10 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processsetupcheck.cpp; path = source/processsetupcheck.cpp; sourceTree = SOURCE_ROOT; };
+		F2D633D3EFF64142800B74FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = hostchecker.uidesc; path = resource/hostchecker.uidesc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7F903A39F34C498D2947D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D45EA7C2094F03B530F9FA = {
+			isa = PBXGroup;
+			children = (
+				B55C5C02C49241439626D342 /* PlugInExamples */,
+				D8093FF7D8EF4912B2D05470 /* ALL_BUILD */,
+				B517A69BE54E4D3CB7B55C8E /* Products */,
+				C617762A71674B1EBF64AABB /* Frameworks */,
+				938C9BFC0FA949A9A826BDF6 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		7AB162CE95B34723B267DA19 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				610B406423C04BFEB98132DC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */,
+				6F35B9091F824596934753D1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */,
+				D1CC0524BEE341D58ACC3208 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */,
+				E1E4AAF813604DA598FA5444 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */,
+				5E92EAE417134697B241A586 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */,
+				377213BE90CF48759DBC6066 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */,
+				738269722389416C9B2D7241 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */,
+				E5CF5C2476F540398CDE1DD0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */,
+				65296A320FED4CCEA65D5EC1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */,
+				94B96386415B4AD7BFBE5BDB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */,
+				A0EA319EBBAC42A7B02EA74E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */,
+				4728786C294640ED961D0CD8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */,
+				C5A1F1368E674386844FA175 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		938C9BFC0FA949A9A826BDF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A45A923B2F404CDD892E7BCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				592CD5227B114444AD3625A6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				3845F361A21F48C0993168D6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B517A69BE54E4D3CB7B55C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC4AFAF1DB4203867DA2F4 /* hostchecker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55C5C02C49241439626D342 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C4CFF0358B4540A8A43EFAF6 /* hostchecker */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		C4CFF0358B4540A8A43EFAF6 /* hostchecker */ = {
+			isa = PBXGroup;
+			children = (
+				7AB162CE95B34723B267DA19 /* Header Files */,
+				CF560E45612441D196AAC14C /* Source Files */,
+				A45A923B2F404CDD892E7BCB /* Resources */,
+				81D19CF98A1045B28482381B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+				F2D633D3EFF64142800B74FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+			);
+			name = hostchecker;
+			sourceTree = "<group>";
+		};
+		C617762A71674B1EBF64AABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF560E45612441D196AAC14C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E91D82B66344EC193A8CB38 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				B4814EA0774A4C97ADE0C49B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				ACA3FCE775A54DF3B82834DB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				E84C9D09175347DDA70F2B6B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				01599570A82541ADA222A1C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				9EBB5C13B00C4547A94C3694 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				7FB10DC5E4A440158BE93E6C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				1D6B0F5978F84C61BF942CF2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				E088828086BA480BB3C3D532 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				8C05225BDA214773A8C794B2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				EC15C990B0C04BE5A681DF10 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				D5726CD3EA1041DC9BEA0413 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D46A077D07564837B58AE004 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D8093FF7D8EF4912B2D05470 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D46A077D07564837B58AE004 /* CMake Rules */,
+				A75AFBFBB7F744E5A99CB70A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5E75CCEBD214C7482E15B44 /* hostchecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4D69D51E004CD191885B85 /* Build configuration list for PBXNativeTarget "hostchecker" */;
+			buildPhases = (
+				0B69E1469EB8733A56DAF5F7 /* CMake PreBuild Rules */,
+				8907C12B5A4541EA8125139B /* Resources */,
+				A0D289F5B4D0413BAD13386C /* Sources */,
+				6D7F903A39F34C498D2947D4 /* Frameworks */,
+				D8CD230E88CE76550C37CBAC /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58194A294B504DA6B344DAAB /* PBXTargetDependency */,
+			);
+			name = hostchecker;
+			productName = hostchecker;
+			productReference = B1EC4AFAF1DB4203867DA2F4 /* hostchecker */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F44B4022164E5E88414E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = C47D3571E2F14146B1B9A6CD /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3F7D4DA54EBB419E8945BA93 /* Debug */,
+				FB54848C6B3844A7B739919D /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 39D45EA7C2094F03B530F9FA;
+			projectDirPath = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker;
+			projectRoot = "";
+			targets = (
+				FE7BACDB0A5149269CA37B41 /* ALL_BUILD */,
+				CDEC6703577749638EAAA90B /* ZERO_CHECK */,
+				C5E75CCEBD214C7482E15B44 /* hostchecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B69E1469EB8733A56DAF5F7 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/hostchecker.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/hostchecker.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		45D8FFE7F56CE7E7EA58F948 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		54AE417B3D9A35A3DB1ADE86 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D8CD230E88CE76550C37CBAC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/hostchecker.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/hostchecker.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/validator /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/hostchecker.vst3 
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/hostchecker.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/hostchecker.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/hostchecker.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/validator  /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/hostchecker.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/hostchecker.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8907C12B5A4541EA8125139B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4AD59175D24C7CA3549B60 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				98D6CDF71EA34E508986F97F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+				8512C4B9146A43F09A9BF033 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0D289F5B4D0413BAD13386C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD974966955C4DA4B6D087E4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				9B3DCE2C663C4B84B25412C2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				EFC3AC8F87E145EFA742167D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				7AF1051560654F56A615FEBD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				8F392A5AC08348E89D93C4BD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				7CA2CDA28B44463BBFE88B8D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				76BE584B68564182999A3C5C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				9DC799A3A36D48BEAB3BA121 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				334C3A0ED7AF4790A9DB9972 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				7DFCE7DDB5B4430E96E65A68 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				4F66993201D242CFBD3B19BC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				C6ABF88E751D4404BAD1B467 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58194A294B504DA6B344DAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 5DA5648B10914C72BE1AAB33 /* PBXContainerItemProxy */;
+		};
+		72C682E5553D4229878A5E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5E75CCEBD214C7482E15B44 /* hostchecker */;
+			targetProxy = 04215A6DA12E48E990A5A649 /* PBXContainerItemProxy */;
+		};
+		77C6458B950444C78A03D663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 72EA88E43FE646DBB74F7B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		253E3547CD0B4578A5B9183C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Release;
+		};
+		504FAEB8998A42C3B4C12194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		66614A6BD77F4B4CAD9D9907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		720CCA83884F4CAA97FA66CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Debug;
+		};
+		74481CCF270E4431BBB4B7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",hostchecker_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/vstgui4,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/hostchecker.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libvstgui_support.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libvstgui_uidescription.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libexpat.tbd,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.hostchecker;
+				PRODUCT_NAME = hostchecker;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/hostchecker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		A5C611B564684549A47CF62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BBDE27926BBB4EABB57F4395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",hostchecker_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/vstgui4,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/hostchecker.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libvstgui_support.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libvstgui_uidescription.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libexpat.tbd,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.hostchecker;
+				PRODUCT_NAME = hostchecker;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/hostchecker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		EB4D470EC7634698853D4FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D4D69D51E004CD191885B85 /* Build configuration list for PBXNativeTarget "hostchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74481CCF270E4431BBB4B7A8 /* Debug */,
+				BBDE27926BBB4EABB57F4395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C47D3571E2F14146B1B9A6CD /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720CCA83884F4CAA97FA66CF /* Debug */,
+				253E3547CD0B4578A5B9183C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E15DC6A082F34371AF2EA100 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504FAEB8998A42C3B4C12194 /* Debug */,
+				66614A6BD77F4B4CAD9D9907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDDB70C39AD446E785BD1986 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C611B564684549A47CF62E /* Debug */,
+				EB4D470EC7634698853D4FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F44B4022164E5E88414E7E /* Project object */;
+}

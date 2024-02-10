@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDEC6703577749638EAAA90B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 26D18667F8FE4AC0B5F40B6E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C4CD0241F7BD5349E73D3E2D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FE7BACDB0A5149269CA37B41 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B46C8BFE19BA4B4FB0D19E27 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4DB3C24BF07ED739810703EB /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8C99F623D8134C8A98611DFA /* PBXTargetDependency */,
+				E8DDD86B91484DCA9F2791A3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		11AE849ADADF4845A0A9A46D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */ = {isa = PBXBuildFile; fileRef = 4E469C73646B463388153718 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */; };
+		3EDE48F870AA4A39977FBE33 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */ = {isa = PBXBuildFile; fileRef = BCB92DED76164086AE750AF5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */; };
+		42E927F7B69D422595E2D0D7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */ = {isa = PBXBuildFile; fileRef = 786BF07298E8414AA48D6783 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */; };
+		6130C2D2DC184D4F9B4791C8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 399FBDBB0443445EB011EB34 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */; };
+		7480EF54A6694EE1B6964BD4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */ = {isa = PBXBuildFile; fileRef = C217A69EC57B4649BA6A9FAE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */; };
+		8B084185E6FA4862AF1189C9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */ = {isa = PBXBuildFile; fileRef = B94E6F0ACF514C319F658E76 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */; };
+		902E19196F934E1B8C85C3EB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */ = {isa = PBXBuildFile; fileRef = A1A11EA9CEC44AA68FBD8239 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */; };
+		943FB70B68BB40E1B808E8D5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */ = {isa = PBXBuildFile; fileRef = 8E02845698A6451D86CFEBCF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */; };
+		B517E84638D8400B859C3F37 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */ = {isa = PBXBuildFile; fileRef = EBD1BC9A4E3F48908A0549C4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */; };
+		CE3B379E71524E11A680AE8D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 53A626FEDE304C008E7551C0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		CE6715581429474CA7AC291A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */ = {isa = PBXBuildFile; fileRef = 62D82D8AC2124E0982DD8078 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */; };
+		CF86C0C23A4D480482ADE2C8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 0F4FFE3229724299924EC89C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */; };
+		E39F42FC1FF3418DAEE9EC89 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */ = {isa = PBXBuildFile; fileRef = A4B5B412F496417090919EB9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E8924D9B327A44508F5EF86B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */ = {isa = PBXBuildFile; fileRef = 7D37DE00300441209A8C9B75 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */; };
+		ECDEB964339548D09621D9FF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */ = {isa = PBXBuildFile; fileRef = D6DC074D9AC44FD6A6E0678E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */; };
+		FB1387DE54EA4755BD5F60B0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */ = {isa = PBXBuildFile; fileRef = CE1263AD37444976BE9D6668 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		9230C9A39EF9423484E54F34 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F4553655D2F14A288593ACEF /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1124889EF700454C9FE7C571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B2669627F545C39EEC32C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+		2A18843D922841A0A11B0A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B2669627F545C39EEC32C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94E3A168A0745AEB8D17B14;
+			remoteInfo = dataexchange;
+		};
+		2B592F4A87434FA7A00A0556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B2669627F545C39EEC32C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F4FFE3229724299924EC89C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		399FBDBB0443445EB011EB34 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E469C73646B463388153718 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; fileEncoding = 4; name = nanovg_mtl_shaders.metal; path = source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal; sourceTree = SOURCE_ROOT; };
+		53A626FEDE304C008E7551C0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		62D82D8AC2124E0982DD8078 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = nanovg.c; path = source/3rdparty/nanovg/src/nanovg.c; sourceTree = SOURCE_ROOT; };
+		786BF07298E8414AA48D6783 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		7D37DE00300441209A8C9B75 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = waveformview_metal.mm; path = source/waveformview_metal.mm; sourceTree = SOURCE_ROOT; };
+		8E02845698A6451D86CFEBCF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processor.cpp; path = source/processor.cpp; sourceTree = SOURCE_ROOT; };
+		A1A11EA9CEC44AA68FBD8239 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanovg_mtl.h; path = source/3rdparty/MetalNanoVG/src/nanovg_mtl.h; sourceTree = SOURCE_ROOT; };
+		A4B5B412F496417090919EB9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nanovg_mtl.m; path = source/3rdparty/MetalNanoVG/src/nanovg_mtl.m; sourceTree = SOURCE_ROOT; };
+		A766775B61B64EE7BCCF9B38 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B94E6F0ACF514C319F658E76 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = waveformview.cpp; path = source/waveformview.cpp; sourceTree = SOURCE_ROOT; };
+		BCB92DED76164086AE750AF5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = waveformview.h; path = source/waveformview.h; sourceTree = SOURCE_ROOT; };
+		C217A69EC57B4649BA6A9FAE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = editor.uidesc; path = resource/editor.uidesc; sourceTree = SOURCE_ROOT; };
+		CE1263AD37444976BE9D6668 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanovg.h; path = source/3rdparty/nanovg/src/nanovg.h; sourceTree = SOURCE_ROOT; };
+		D6DC074D9AC44FD6A6E0678E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controller.cpp; path = source/controller.cpp; sourceTree = SOURCE_ROOT; };
+		E78CB9E126004D01B92C641B /* dataexchange */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = dataexchange.bundle/Contents/MacOS/dataexchange; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD1BC9A4E3F48908A0549C4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shared.h; path = source/shared.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CBA0E291664477BF6D9C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064C75FB09C24470ADECC7E4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1A11EA9CEC44AA68FBD8239 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */,
+				CE1263AD37444976BE9D6668 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */,
+				EBD1BC9A4E3F48908A0549C4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */,
+				786BF07298E8414AA48D6783 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */,
+				BCB92DED76164086AE750AF5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		295986F856E24EDFA83B3203 /* dataexchange */ = {
+			isa = PBXGroup;
+			children = (
+				50AFA44183AF4077B0D8D75E /* Source Files */,
+				064C75FB09C24470ADECC7E4 /* Header Files */,
+				399FBDBB0443445EB011EB34 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */,
+				C217A69EC57B4649BA6A9FAE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */,
+				4E469C73646B463388153718 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */,
+			);
+			name = dataexchange;
+			sourceTree = "<group>";
+		};
+		2982C25E02004A38858FDB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78CB9E126004D01B92C641B /* dataexchange */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF54DCF3A3441C1BF413304 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		509A6899410B4758A6C36AAB = {
+			isa = PBXGroup;
+			children = (
+				8D134966632C499DBEEBD300 /* PlugInExamples */,
+				933FF445720D42E1AB5BC24D /* ALL_BUILD */,
+				2982C25E02004A38858FDB2D /* Products */,
+				58B5D80B558C41219930C7C5 /* Frameworks */,
+				4DF54DCF3A3441C1BF413304 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		50AFA44183AF4077B0D8D75E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B5B412F496417090919EB9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */,
+				62D82D8AC2124E0982DD8078 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */,
+				D6DC074D9AC44FD6A6E0678E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */,
+				0F4FFE3229724299924EC89C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */,
+				8E02845698A6451D86CFEBCF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */,
+				B94E6F0ACF514C319F658E76 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */,
+				7D37DE00300441209A8C9B75 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */,
+				53A626FEDE304C008E7551C0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		58B5D80B558C41219930C7C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D134966632C499DBEEBD300 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				295986F856E24EDFA83B3203 /* dataexchange */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		933FF445720D42E1AB5BC24D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D1B0F203BFFA43BEA20B00A0 /* CMake Rules */,
+				A766775B61B64EE7BCCF9B38 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D1B0F203BFFA43BEA20B00A0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94E3A168A0745AEB8D17B14 /* dataexchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72E020DE1324532B7D5EE2A /* Build configuration list for PBXNativeTarget "dataexchange" */;
+			buildPhases = (
+				96E1166BDC242C3DAB38C9A8 /* CMake PreBuild Rules */,
+				DECE261A9C5F42A1BBC1EA5D /* Resources */,
+				E6B7886D0BDD4B4D9F058C38 /* Sources */,
+				79CBA0E291664477BF6D9C41 /* Frameworks */,
+				2051F610BF41D264AB9C44D9 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BB369F57DF43748979B138 /* PBXTargetDependency */,
+			);
+			name = dataexchange;
+			productName = dataexchange;
+			productReference = E78CB9E126004D01B92C641B /* dataexchange */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06B2669627F545C39EEC32C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = 1006282D169042C7920292C0 /* Build configuration list for PBXProject "smtg-vst3-dataexchange" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9230C9A39EF9423484E54F34 /* Debug */,
+				F4553655D2F14A288593ACEF /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 509A6899410B4758A6C36AAB;
+			projectDirPath = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange;
+			projectRoot = "";
+			targets = (
+				FE7BACDB0A5149269CA37B41 /* ALL_BUILD */,
+				CDEC6703577749638EAAA90B /* ZERO_CHECK */,
+				A94E3A168A0745AEB8D17B14 /* dataexchange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2051F610BF41D264AB9C44D9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/dataexchange.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/dataexchange.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/dataexchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/dataexchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/validator /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/dataexchange.vst3 
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/dataexchange.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/dataexchange.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/dataexchange.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/dataexchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/dataexchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/validator  /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/dataexchange.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/dataexchange.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4DB3C24BF07ED739810703EB /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		96E1166BDC242C3DAB38C9A8 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/dataexchange.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/dataexchange.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C4CD0241F7BD5349E73D3E2D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECE261A9C5F42A1BBC1EA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7480EF54A6694EE1B6964BD4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B7886D0BDD4B4D9F058C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39F42FC1FF3418DAEE9EC89 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */,
+				CE6715581429474CA7AC291A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */,
+				ECDEB964339548D09621D9FF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */,
+				CF86C0C23A4D480482ADE2C8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */,
+				943FB70B68BB40E1B808E8D5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */,
+				8B084185E6FA4862AF1189C9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */,
+				E8924D9B327A44508F5EF86B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */,
+				CE3B379E71524E11A680AE8D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BB369F57DF43748979B138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 1124889EF700454C9FE7C571 /* PBXContainerItemProxy */;
+		};
+		8C99F623D8134C8A98611DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94E3A168A0745AEB8D17B14 /* dataexchange */;
+			targetProxy = 2A18843D922841A0A11B0A30 /* PBXContainerItemProxy */;
+		};
+		E8DDD86B91484DCA9F2791A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 2B592F4A87434FA7A00A0556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A2399218A1744848392BDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1E923B362F0A44BD9D5EB4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Release;
+		};
+		4F7DD645CBC34DA79C8ECD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		73329E38242F46CBBE37CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		76E6DBCF82D34E2C8F4A497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7F4BF4ADB9D94846B40382EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Debug;
+		};
+		84B8A48C7E624C4BA2EC5D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dataexchange_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/vstgui4,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeFiles/dataexchange.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CFLAGS = ("   -fPIC -fvisibility=hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' ","$(inherited)");
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libvstgui_support.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk.a,"-framework Metal","-framework QuartzCore","-framework CoreAudio",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libvstgui_uidescription.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libexpat.tbd,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.dataexchange;
+				PRODUCT_NAME = dataexchange;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/dataexchange.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		A1D773CB429C4F458C489B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dataexchange_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/vstgui4,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeFiles/dataexchange.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -fvisibility=hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ","$(inherited)");
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libvstgui_support.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk.a,"-framework Metal","-framework QuartzCore","-framework CoreAudio",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libvstgui_uidescription.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libexpat.tbd,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.dataexchange;
+				PRODUCT_NAME = dataexchange;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/dataexchange.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1006282D169042C7920292C0 /* Build configuration list for PBXProject "smtg-vst3-dataexchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4BF4ADB9D94846B40382EB /* Debug */,
+				1E923B362F0A44BD9D5EB4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26D18667F8FE4AC0B5F40B6E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E6DBCF82D34E2C8F4A497E /* Debug */,
+				1A2399218A1744848392BDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A72E020DE1324532B7D5EE2A /* Build configuration list for PBXNativeTarget "dataexchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B8A48C7E624C4BA2EC5D13 /* Debug */,
+				A1D773CB429C4F458C489B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B46C8BFE19BA4B4FB0D19E27 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7DD645CBC34DA79C8ECD8A /* Debug */,
+				73329E38242F46CBBE37CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06B2669627F545C39EEC32C0 /* Project object */;
+}

@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDEC6703577749638EAAA90B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4BA0B4BDA2334D4BA4677639 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				40C82C8DB3AEA15970F5EC88 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FE7BACDB0A5149269CA37B41 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8C685F3A2CB449ADAF4E32A5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CFF145AEEF26B4ED3566CF67 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				85401983C60244E8A8285E1B /* PBXTargetDependency */,
+				9D325D7FB150489DB1D22DBA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		10BA3A94C6C54863BD714E5C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXBuildFile; fileRef = FF74C0AEEE1A41AC8766E2F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */; };
+		45FF3986300E454990DCE81D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXBuildFile; fileRef = EC0E0618FCA24F479D38DDFA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */; };
+		47A0DB13F87F4665962C7319 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXBuildFile; fileRef = 929B77C0C40E461CA6AE7553 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */; };
+		4EED883EC2954008AFB7C119 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXBuildFile; fileRef = A6A54CD0C6E14D30A0C6814E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */; };
+		66FE1F711EDA4F01AF2D2CD2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = F47A7AEDBD944F3F90F9A470 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		771612191DA940688A2219DC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CF66AD5F09B34FDF89281285 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */; };
+		AE0B505AB55941FF8BE31AEA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = E34092BAA3F94E658AF35492 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */; };
+		C5917F6A2FFC4CE9B1D7B95C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 3AB79F811643459D87409D5B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */; };
+		D20E5EE7B0914C19A91AD416 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXBuildFile; fileRef = 9093A1EF815F4B278F851744 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */; };
+		D3C93A1048F14AF0A7C0E845 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXBuildFile; fileRef = 2723B281214F431AB40A909F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */; };
+		D59E1572AA554D108E25ADC5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXBuildFile; fileRef = B768829F0E1B4331A78D5EEC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */; };
+		DA7675FDFF2E4F978A0F9402 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXBuildFile; fileRef = EE069DF685F042D3A17023DB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		A3267E35DD9740239FEF0AFE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B600A328741042C3A465F2F9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		866BAF3F219C48FBA1687876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD928D24093D4BBDAA065796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+		D3CB12428BF749F69CA3A67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD928D24093D4BBDAA065796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C1D43C0B7E4711A5571C56;
+			remoteInfo = adelay;
+		};
+		FDD69A8AE0874B0782EEED9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD928D24093D4BBDAA065796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AAC14102D594AF3BEEB2456 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2723B281214F431AB40A909F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayids.h; path = source/adelayids.h; sourceTree = SOURCE_ROOT; };
+		3AB79F811643459D87409D5B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelayprocessor.cpp; path = source/adelayprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		6E66968245DB4448B5962074 /* adelay */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = adelay.bundle/Contents/MacOS/adelay; sourceTree = BUILT_PRODUCTS_DIR; };
+		9093A1EF815F4B278F851744 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayprocessor.h; path = source/adelayprocessor.h; sourceTree = SOURCE_ROOT; };
+		929B77C0C40E461CA6AE7553 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = versionparsertest.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp; sourceTree = "<absolute>"; };
+		A6A54CD0C6E14D30A0C6814E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		B768829F0E1B4331A78D5EEC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelaycontroller.h; path = source/adelaycontroller.h; sourceTree = SOURCE_ROOT; };
+		CF66AD5F09B34FDF89281285 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E34092BAA3F94E658AF35492 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		EC0E0618FCA24F479D38DDFA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ringbuffertest.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp; sourceTree = "<absolute>"; };
+		EE069DF685F042D3A17023DB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exampletest.cpp; path = source/exampletest.cpp; sourceTree = SOURCE_ROOT; };
+		F47A7AEDBD944F3F90F9A470 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		FF74C0AEEE1A41AC8766E2F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelaycontroller.cpp; path = source/adelaycontroller.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62A5B39C73D2481D90569863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39FE0C3171E44FA5857629FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E66968245DB4448B5962074 /* adelay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2A4DC9D094414D9B4F608D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				86550A91267A4188AF9842EB /* CMake Rules */,
+				1AAC14102D594AF3BEEB2456 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		86550A91267A4188AF9842EB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		900E09C6914D40E7B338C317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B92AE6E40C4D4DA8B0EA97B6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B768829F0E1B4331A78D5EEC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */,
+				2723B281214F431AB40A909F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */,
+				9093A1EF815F4B278F851744 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */,
+				A6A54CD0C6E14D30A0C6814E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B9C641B428A44CA9975964D6 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				D7DCD131D7744A259C3F798D /* adelay */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		BA180FFFE20E4D888A09A2EB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF74C0AEEE1A41AC8766E2F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
+				3AB79F811643459D87409D5B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
+				EE069DF685F042D3A17023DB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
+				E34092BAA3F94E658AF35492 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
+				F47A7AEDBD944F3F90F9A470 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				EC0E0618FCA24F479D38DDFA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
+				929B77C0C40E461CA6AE7553 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BC8B60A5F6B24BEE9A9CE7FA = {
+			isa = PBXGroup;
+			children = (
+				B9C641B428A44CA9975964D6 /* PlugInExamples */,
+				6F2A4DC9D094414D9B4F608D /* ALL_BUILD */,
+				39FE0C3171E44FA5857629FC /* Products */,
+				900E09C6914D40E7B338C317 /* Frameworks */,
+				DFA2E8AB01044CAF858AA5EC /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		D7DCD131D7744A259C3F798D /* adelay */ = {
+			isa = PBXGroup;
+			children = (
+				BA180FFFE20E4D888A09A2EB /* Source Files */,
+				B92AE6E40C4D4DA8B0EA97B6 /* Header Files */,
+				CF66AD5F09B34FDF89281285 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
+			);
+			name = adelay;
+			sourceTree = "<group>";
+		};
+		DFA2E8AB01044CAF858AA5EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C1D43C0B7E4711A5571C56 /* adelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE5E7AB32F43CEBB4D9045 /* Build configuration list for PBXNativeTarget "adelay" */;
+			buildPhases = (
+				C62D6B6EAC44162FE7C44A5E /* CMake PreBuild Rules */,
+				972AE99A81B74463808CE94C /* Sources */,
+				62A5B39C73D2481D90569863 /* Frameworks */,
+				8DB583FD6997E39C0613AEBA /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				481E4B5412514E6B99135FB2 /* PBXTargetDependency */,
+			);
+			name = adelay;
+			productName = adelay;
+			productReference = 6E66968245DB4448B5962074 /* adelay */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD928D24093D4BBDAA065796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = C1D68B4D33A04034BEF9B242 /* Build configuration list for PBXProject "smtg-vst3-adelay" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B600A328741042C3A465F2F9 /* Debug */,
+				A3267E35DD9740239FEF0AFE /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = BC8B60A5F6B24BEE9A9CE7FA;
+			projectDirPath = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay;
+			projectRoot = "";
+			targets = (
+				FE7BACDB0A5149269CA37B41 /* ALL_BUILD */,
+				CDEC6703577749638EAAA90B /* ZERO_CHECK */,
+				66C1D43C0B7E4711A5571C56 /* adelay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		40C82C8DB3AEA15970F5EC88 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8DB583FD6997E39C0613AEBA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/adelay.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/adelay.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/validator /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/adelay.vst3 
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/adelay.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/adelay.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/adelay.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/validator  /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/adelay.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/adelay.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C62D6B6EAC44162FE7C44A5E /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/adelay.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/adelay.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		CFF145AEEF26B4ED3566CF67 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972AE99A81B74463808CE94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BA3A94C6C54863BD714E5C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
+				C5917F6A2FFC4CE9B1D7B95C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
+				DA7675FDFF2E4F978A0F9402 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
+				AE0B505AB55941FF8BE31AEA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
+				66FE1F711EDA4F01AF2D2CD2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				45FF3986300E454990DCE81D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
+				47A0DB13F87F4665962C7319 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		481E4B5412514E6B99135FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = FDD69A8AE0874B0782EEED9F /* PBXContainerItemProxy */;
+		};
+		85401983C60244E8A8285E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C1D43C0B7E4711A5571C56 /* adelay */;
+			targetProxy = D3CB12428BF749F69CA3A67E /* PBXContainerItemProxy */;
+		};
+		9D325D7FB150489DB1D22DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 866BAF3F219C48FBA1687876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000B07AA132A4440A8980D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1230019D37E346848B984CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Debug;
+		};
+		2130012459F640CF8D509171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		24FD2F18A5204E6FB5BFDAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",adelay_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/adelay.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.adelay;
+				PRODUCT_NAME = adelay;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/adelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		A4769F729B0B432AB36B3F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",adelay_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/adelay.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.adelay;
+				PRODUCT_NAME = adelay;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/adelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		C338ABF2482B49009448A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E410EE01D07749D7BB76ED24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E9E75F02E457403DAA88A81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14AE5E7AB32F43CEBB4D9045 /* Build configuration list for PBXNativeTarget "adelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4769F729B0B432AB36B3F8A /* Debug */,
+				24FD2F18A5204E6FB5BFDAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4BA0B4BDA2334D4BA4677639 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C338ABF2482B49009448A710 /* Debug */,
+				000B07AA132A4440A8980D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C685F3A2CB449ADAF4E32A5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2130012459F640CF8D509171 /* Debug */,
+				E410EE01D07749D7BB76ED24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1D68B4D33A04034BEF9B242 /* Build configuration list for PBXProject "smtg-vst3-adelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1230019D37E346848B984CA4 /* Debug */,
+				E9E75F02E457403DAA88A81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD928D24093D4BBDAA065796 /* Project object */;
+}

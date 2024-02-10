@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDEC6703577749638EAAA90B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8F2ED96E61C14E01A0C429F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E089F3842A4057B84A98BB21 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FE7BACDB0A5149269CA37B41 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F249C937D2574979B336F5A2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1EA097DFE7BAEA9A84CCC0FD /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				57253CC727D34387896954FD /* PBXTargetDependency */,
+				FDEE8F4825414B9CA873569A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01E46B7DC50D4182AA2B8946 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.cpp */ = {isa = PBXBuildFile; fileRef = 749917EF34DF4F3E9DEEEE0F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.cpp */; };
+		07B67518D36842B186D538A0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.h */ = {isa = PBXBuildFile; fileRef = 3F78EE1438164C9ABB00AD17 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.h */; };
+		186851C6923446629C513A49 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.h */ = {isa = PBXBuildFile; fileRef = 62C8CBDE219444B28F52CD98 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.h */; };
+		1AA74627C2F647C29D5AC123 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/flock.cpp */ = {isa = PBXBuildFile; fileRef = 43126D37BE4D4D859DD23894 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/flock.cpp */; };
+		241F4CE8E49F49AE93261C80 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcommandline.h */ = {isa = PBXBuildFile; fileRef = CB2A3CC759014043B9478601 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcommandline.h */; };
+		250915897F1E416A8F38DFDF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.h */ = {isa = PBXBuildFile; fileRef = DF1E307D10954591904CAF85 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.h */; };
+		25203972474345699274523D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.h */ = {isa = PBXBuildFile; fileRef = 3CBE62501D0C4F9AA1D9F543 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.h */; };
+		3F12D140831048F1A4DC4722 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9474DE6C649A4528BFB7592F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/CMakeLists.txt */; };
+		42659262AAE94CF48FDA9FAF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/baseiids.cpp */ = {isa = PBXBuildFile; fileRef = 9349A56D0CDC402E9189348E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/baseiids.cpp */; };
+		4AF95C8917954A8BAF21E384 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */ = {isa = PBXBuildFile; fileRef = 43076F0A56E846B1BDB05775 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */; };
+		59DAAF67EF6D4856A63042EE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.cpp */ = {isa = PBXBuildFile; fileRef = 1867A3B8DDC54DBB8F0F3F78 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.cpp */; };
+		76436A28FB694BC6845A4185 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.h */ = {isa = PBXBuildFile; fileRef = 6E0018156570435587A1974F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.h */; };
+		795F62475026431E97A302E5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.h */ = {isa = PBXBuildFile; fileRef = F39B7A75B19B490C9B8B7D1C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.h */; };
+		8A49E3D678854D1C8CA9CE44 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */ = {isa = PBXBuildFile; fileRef = B31A1A8040FA4271A4D7C6C3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */; };
+		93E85F9F88A248C19B561264 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.cpp */ = {isa = PBXBuildFile; fileRef = B7EF67DE7B524C3CA3F85203 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.cpp */; };
+		95947523AD7143C881DA695B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.cpp */ = {isa = PBXBuildFile; fileRef = C67AF571DBFF4600B2E4778A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.cpp */; };
+		9676005E8E0844A799CBF567 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.cpp */ = {isa = PBXBuildFile; fileRef = 7F2E44DCE53D42AEBEAB4534 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.cpp */; };
+		A252D4D89C2F426495020BEF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.cpp */ = {isa = PBXBuildFile; fileRef = EA09469DB9E44EA48BD0E3F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.cpp */; };
+		A5CDE18421B2469E94219752 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.cpp */ = {isa = PBXBuildFile; fileRef = 9DA142172CBE41A3A244B3BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.cpp */; };
+		AC1FBB5793BF4B269DD6CA63 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/flock.h */ = {isa = PBXBuildFile; fileRef = 8EDAA793C77A4EEDAC65FC97 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/flock.h */; };
+		B0189A4DAF7848BE8349518D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/fcondition.h */ = {isa = PBXBuildFile; fileRef = ADB1CE65B6BC44FE9AD99E25 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/fcondition.h */; };
+		D43DF3354E8544D9AF37F0F7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.cpp */ = {isa = PBXBuildFile; fileRef = 0582EC2C0D454611B23B0991 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.cpp */; };
+		DD33205621324B90B79B1B29 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcleanup.h */ = {isa = PBXBuildFile; fileRef = CFADD00596624DFB8F1882DF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcleanup.h */; };
+		E01C5FE491D640419002ACC9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.h */ = {isa = PBXBuildFile; fileRef = 3CE3ABDBEF4743E9B2850D82 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.h */; };
+		F716876CFE4342719FA0A210 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.h */ = {isa = PBXBuildFile; fileRef = 6CEEFA1C494C4429A9FF3C19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		F5B9D28665FD4C8296DC1991 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FF172C5EACB548149B52E9D7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1AAF46A6ECAD4EF49E26945B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3721ED617E4B7DA48EF1D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+		B7E2F8D08D6D4723A4F8B6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3721ED617E4B7DA48EF1D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A96EE53B1241DA8F88354B;
+			remoteInfo = base;
+		};
+		F7134004E99F491DBF707E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3721ED617E4B7DA48EF1D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0582EC2C0D454611B23B0991 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fstring.cpp; path = source/fstring.cpp; sourceTree = SOURCE_ROOT; };
+		1867A3B8DDC54DBB8F0F3F78 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fdebug.cpp; path = source/fdebug.cpp; sourceTree = SOURCE_ROOT; };
+		3CBE62501D0C4F9AA1D9F543 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstreamer.h; path = source/fstreamer.h; sourceTree = SOURCE_ROOT; };
+		3CE3ABDBEF4743E9B2850D82 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fobject.h; path = source/fobject.h; sourceTree = SOURCE_ROOT; };
+		3F78EE1438164C9ABB00AD17 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fdebug.h; path = source/fdebug.h; sourceTree = SOURCE_ROOT; };
+		43076F0A56E846B1BDB05775 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = classfactoryhelpers.h; path = source/classfactoryhelpers.h; sourceTree = SOURCE_ROOT; };
+		43126D37BE4D4D859DD23894 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/flock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flock.cpp; path = thread/source/flock.cpp; sourceTree = SOURCE_ROOT; };
+		62C8CBDE219444B28F52CD98 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fbuffer.h; path = source/fbuffer.h; sourceTree = SOURCE_ROOT; };
+		6CEEFA1C494C4429A9FF3C19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstring.h; path = source/fstring.h; sourceTree = SOURCE_ROOT; };
+		6E0018156570435587A1974F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = source/timer.h; sourceTree = SOURCE_ROOT; };
+		749917EF34DF4F3E9DEEEE0F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fstreamer.cpp; path = source/fstreamer.cpp; sourceTree = SOURCE_ROOT; };
+		7F2E44DCE53D42AEBEAB4534 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fbuffer.cpp; path = source/fbuffer.cpp; sourceTree = SOURCE_ROOT; };
+		8EDAA793C77A4EEDAC65FC97 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/flock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flock.h; path = thread/include/flock.h; sourceTree = SOURCE_ROOT; };
+		9349A56D0CDC402E9189348E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/baseiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = baseiids.cpp; path = source/baseiids.cpp; sourceTree = SOURCE_ROOT; };
+		9474DE6C649A4528BFB7592F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9DA142172CBE41A3A244B3BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = source/timer.cpp; sourceTree = SOURCE_ROOT; };
+		ADB1CE65B6BC44FE9AD99E25 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/fcondition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcondition.h; path = thread/include/fcondition.h; sourceTree = SOURCE_ROOT; };
+		B31A1A8040FA4271A4D7C6C3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fcondition.cpp; path = thread/source/fcondition.cpp; sourceTree = SOURCE_ROOT; };
+		B7EF67DE7B524C3CA3F85203 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fdynlib.cpp; path = source/fdynlib.cpp; sourceTree = SOURCE_ROOT; };
+		C3AE656389FA4C8B840012C2 /* base */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67AF571DBFF4600B2E4778A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = updatehandler.cpp; path = source/updatehandler.cpp; sourceTree = SOURCE_ROOT; };
+		CAE17643B7384D4BBC427CDF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CB2A3CC759014043B9478601 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcommandline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcommandline.h; path = source/fcommandline.h; sourceTree = SOURCE_ROOT; };
+		CFADD00596624DFB8F1882DF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcleanup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcleanup.h; path = source/fcleanup.h; sourceTree = SOURCE_ROOT; };
+		DF1E307D10954591904CAF85 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fdynlib.h; path = source/fdynlib.h; sourceTree = SOURCE_ROOT; };
+		EA09469DB9E44EA48BD0E3F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fobject.cpp; path = source/fobject.cpp; sourceTree = SOURCE_ROOT; };
+		F39B7A75B19B490C9B8B7D1C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = updatehandler.h; path = source/updatehandler.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CBF50DA87AB4833A8B9EA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011211B3F5C74EEDA58701C8 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F122B49EA5B644DCBE8BD95D /* CMake Rules */,
+				CAE17643B7384D4BBC427CDF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		35C9CE5A2C6049F496BE8198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51C4B058DA5F4316A261CA89 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9349A56D0CDC402E9189348E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/baseiids.cpp */,
+				7F2E44DCE53D42AEBEAB4534 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.cpp */,
+				1867A3B8DDC54DBB8F0F3F78 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.cpp */,
+				B7EF67DE7B524C3CA3F85203 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.cpp */,
+				EA09469DB9E44EA48BD0E3F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.cpp */,
+				749917EF34DF4F3E9DEEEE0F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.cpp */,
+				0582EC2C0D454611B23B0991 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.cpp */,
+				9DA142172CBE41A3A244B3BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.cpp */,
+				C67AF571DBFF4600B2E4778A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.cpp */,
+				B31A1A8040FA4271A4D7C6C3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */,
+				43126D37BE4D4D859DD23894 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/flock.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5F7A6014944A4AC388994F8C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8F818AB9B6964CD29DAA30F4 /* base */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		8F818AB9B6964CD29DAA30F4 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				51C4B058DA5F4316A261CA89 /* Source Files */,
+				EB001C7AF8624EFDA5BDBB33 /* Header Files */,
+				9474DE6C649A4528BFB7592F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/CMakeLists.txt */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		C8D9A1E583E9450F97D0A1D5 = {
+			isa = PBXGroup;
+			children = (
+				5F7A6014944A4AC388994F8C /* Libraries */,
+				011211B3F5C74EEDA58701C8 /* ALL_BUILD */,
+				CC876E5075CD4147AB8D040E /* Products */,
+				35C9CE5A2C6049F496BE8198 /* Frameworks */,
+				EBBF068A2A1346B9B2B1C74F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		CC876E5075CD4147AB8D040E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE656389FA4C8B840012C2 /* base */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB001C7AF8624EFDA5BDBB33 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				43076F0A56E846B1BDB05775 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */,
+				62C8CBDE219444B28F52CD98 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.h */,
+				CFADD00596624DFB8F1882DF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcleanup.h */,
+				CB2A3CC759014043B9478601 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fcommandline.h */,
+				3F78EE1438164C9ABB00AD17 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.h */,
+				DF1E307D10954591904CAF85 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.h */,
+				3CE3ABDBEF4743E9B2850D82 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.h */,
+				3CBE62501D0C4F9AA1D9F543 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.h */,
+				6CEEFA1C494C4429A9FF3C19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.h */,
+				6E0018156570435587A1974F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.h */,
+				F39B7A75B19B490C9B8B7D1C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.h */,
+				ADB1CE65B6BC44FE9AD99E25 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/fcondition.h */,
+				8EDAA793C77A4EEDAC65FC97 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/include/flock.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EBBF068A2A1346B9B2B1C74F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F122B49EA5B644DCBE8BD95D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A96EE53B1241DA8F88354B /* base */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F682E14918E7496FAD9AB4E0 /* Build configuration list for PBXNativeTarget "base" */;
+			buildPhases = (
+				0F9AEEF8E3484D1B862481DC /* Sources */,
+				6CBF50DA87AB4833A8B9EA63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8814F8E671414BC18D9A69C3 /* PBXTargetDependency */,
+			);
+			name = base;
+			productName = base;
+			productReference = C3AE656389FA4C8B840012C2 /* base */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3721ED617E4B7DA48EF1D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = 98CC4E2254954D4B89C2FD3A /* Build configuration list for PBXProject "smtg_base" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FF172C5EACB548149B52E9D7 /* Debug */,
+				F5B9D28665FD4C8296DC1991 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C8D9A1E583E9450F97D0A1D5;
+			projectDirPath = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base;
+			projectRoot = "";
+			targets = (
+				FE7BACDB0A5149269CA37B41 /* ALL_BUILD */,
+				CDEC6703577749638EAAA90B /* ZERO_CHECK */,
+				12A96EE53B1241DA8F88354B /* base */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EA097DFE7BAEA9A84CCC0FD /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E089F3842A4057B84A98BB21 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/base/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F9AEEF8E3484D1B862481DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42659262AAE94CF48FDA9FAF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/baseiids.cpp */,
+				9676005E8E0844A799CBF567 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fbuffer.cpp */,
+				59DAAF67EF6D4856A63042EE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdebug.cpp */,
+				93E85F9F88A248C19B561264 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fdynlib.cpp */,
+				A252D4D89C2F426495020BEF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fobject.cpp */,
+				01E46B7DC50D4182AA2B8946 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstreamer.cpp */,
+				D43DF3354E8544D9AF37F0F7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/fstring.cpp */,
+				A5CDE18421B2469E94219752 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/timer.cpp */,
+				95947523AD7143C881DA695B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/source/updatehandler.cpp */,
+				8A49E3D678854D1C8CA9CE44 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */,
+				1AA74627C2F647C29D5AC123 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/thread/source/flock.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57253CC727D34387896954FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A96EE53B1241DA8F88354B /* base */;
+			targetProxy = B7E2F8D08D6D4723A4F8B6B1 /* PBXContainerItemProxy */;
+		};
+		8814F8E671414BC18D9A69C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 1AAF46A6ECAD4EF49E26945B /* PBXContainerItemProxy */;
+		};
+		FDEE8F4825414B9CA873569A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = F7134004E99F491DBF707E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20BC2AFA7D9044A9957847CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3DC75307D0D44E80855AD805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		77BF4773ABEA4433844A6DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Release;
+		};
+		82DE756718344FBBBB01FADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Debug;
+		};
+		8F157AB06DFE42058BA57A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9B4B116E875B4AFCB5B086A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = base;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/base.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE9FF7253CEB4CDC8A886FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = base;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/base.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FF095046C25F4FD9B2B55F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F2ED96E61C14E01A0C429F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC75307D0D44E80855AD805 /* Debug */,
+				FF095046C25F4FD9B2B55F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98CC4E2254954D4B89C2FD3A /* Build configuration list for PBXProject "smtg_base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DE756718344FBBBB01FADB /* Debug */,
+				77BF4773ABEA4433844A6DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F249C937D2574979B336F5A2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BC2AFA7D9044A9957847CA /* Debug */,
+				8F157AB06DFE42058BA57A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F682E14918E7496FAD9AB4E0 /* Build configuration list for PBXNativeTarget "base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4B116E875B4AFCB5B086A7 /* Debug */,
+				BE9FF7253CEB4CDC8A886FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3721ED617E4B7DA48EF1D7 /* Project object */;
+}

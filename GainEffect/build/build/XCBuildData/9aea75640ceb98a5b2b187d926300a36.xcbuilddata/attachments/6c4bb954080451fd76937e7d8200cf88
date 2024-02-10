@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/GainEffect.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/moduleinfotool -create -version 1.0.0.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/GainEffect.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/GainEffect.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/GainEffect.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/validator /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/GainEffect.vst3 
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/GainEffect.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/GainEffect.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/moduleinfotool -create -version 1.0.0.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/GainEffect.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/GainEffect.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/GainEffect.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/validator  /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/GainEffect.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/GainEffect.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+

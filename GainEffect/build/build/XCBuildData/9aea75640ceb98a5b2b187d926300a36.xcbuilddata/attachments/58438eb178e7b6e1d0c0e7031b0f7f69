@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/GainEffect.vst3/Contents/Resources
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/GainEffect.vst3/Contents/Resources
+fi
+

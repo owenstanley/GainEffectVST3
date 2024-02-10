@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDEC6703577749638EAAA90B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7CD10C2E62144C918884E4FE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C6FDC186D402D72036015E24 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FE7BACDB0A5149269CA37B41 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AEC3BBABC1D0433AAA796D6B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8496E777FD6238A04F593D82 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				DE0251C3E91748F899477F0F /* PBXTargetDependency */,
+				DD06CFF1BB87483989DA74DD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0AEA2BF391DD40F9818125FF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.h */ = {isa = PBXBuildFile; fileRef = E486A50F83E54BA8A9C131D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.h */; };
+		62A9BFF59CF84F6D82C40029 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_controller.cpp */ = {isa = PBXBuildFile; fileRef = 862708D6B06A42E390B6935C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_controller.cpp */; };
+		6383604C10664B9E9E213CE2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/version.h */ = {isa = PBXBuildFile; fileRef = 68CFFB703E164568B461B28D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/version.h */; };
+		88DDE59E39554FD182FBB5F3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.cpp */ = {isa = PBXBuildFile; fileRef = 53F583422E3C498BA25F03A4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.cpp */; };
+		8B6723294EA6495AAD7523F8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_processor.cpp */ = {isa = PBXBuildFile; fileRef = AC6B88E796CC4B8F8FDB7E37 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_processor.cpp */; };
+		A291DA7568A345A2BB355213 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A8A445F8D8E04248BB82E1D1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeLists.txt */; };
+		BBA2EAA9BDA94BB78A92D217 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_factory.cpp */ = {isa = PBXBuildFile; fileRef = 4B7032EF57C041F9873DF4CA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_factory.cpp */; };
+		C6ADFF55964F41AB994EA2B4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/rttransfertest.cpp */ = {isa = PBXBuildFile; fileRef = 206D579F12244F70BEA6BC73 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/rttransfertest.cpp */; };
+		CB960F8BA6324B51B040D190 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 8A33675C8D7546C7A61C9A54 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		D9D67F745952439EAB2C65DA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/sampleaccuratetest.cpp */ = {isa = PBXBuildFile; fileRef = 2FBAF913ECE94EA7BD33939A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/sampleaccuratetest.cpp */; };
+		F1135CB21FB048819F932D04 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa.h */ = {isa = PBXBuildFile; fileRef = 3A3A0BC88DE4470BA250CCCE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0C41754DF3254E0CBF8EF292 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F3F72EA43EBA4365BB691512 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		83C10261F0ED478DBE22C86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8950279486F4BE7816036D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+		99724F4071E245BCB6BD8E9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8950279486F4BE7816036D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+		DD1DCA0A5B524EDA8C946F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8950279486F4BE7816036D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83441BC4D53A4A52BD4F681D;
+			remoteInfo = "again-sampleaccurate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F795A7CA98400C96B77515 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0D0FA8120CFA4DA4B1B9E442 /* again-sampleaccurate */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "again-sampleaccurate.bundle/Contents/MacOS/again-sampleaccurate"; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D579F12244F70BEA6BC73 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/rttransfertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rttransfertest.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/rttransfertest.cpp; sourceTree = "<absolute>"; };
+		2FBAF913ECE94EA7BD33939A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/sampleaccuratetest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sampleaccuratetest.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/sampleaccuratetest.cpp; sourceTree = "<absolute>"; };
+		3A3A0BC88DE4470BA250CCCE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = agsa.h; path = source/agsa.h; sourceTree = SOURCE_ROOT; };
+		4B7032EF57C041F9873DF4CA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agsa_factory.cpp; path = source/agsa_factory.cpp; sourceTree = SOURCE_ROOT; };
+		53F583422E3C498BA25F03A4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tutorial.cpp; path = source/tutorial.cpp; sourceTree = SOURCE_ROOT; };
+		68CFFB703E164568B461B28D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		862708D6B06A42E390B6935C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agsa_controller.cpp; path = source/agsa_controller.cpp; sourceTree = SOURCE_ROOT; };
+		8A33675C8D7546C7A61C9A54 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		A8A445F8D8E04248BB82E1D1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AC6B88E796CC4B8F8FDB7E37 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agsa_processor.cpp; path = source/agsa_processor.cpp; sourceTree = SOURCE_ROOT; };
+		E486A50F83E54BA8A9C131D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tutorial.h; path = source/tutorial.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DA832C831BE405E81F82759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C4BA48125C412D8BBAB7B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69213F53AFBF4D93AE13191F /* again-sampleaccurate */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9F62A57D642E8B1D5F048 /* Source Files */,
+				E3D4180E9984469DB3A886EA /* Header Files */,
+				A8A445F8D8E04248BB82E1D1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeLists.txt */,
+			);
+			name = "again-sampleaccurate";
+			sourceTree = "<group>";
+		};
+		6E784188832B4A38BE706951 = {
+			isa = PBXGroup;
+			children = (
+				D8FC887B991542839BE09CC5 /* PlugInExamples */,
+				ECD5AA51C75342B38B09E1F5 /* ALL_BUILD */,
+				A163D6DBA1674F7B8419B584 /* Products */,
+				48C4BA48125C412D8BBAB7B7 /* Frameworks */,
+				CD8F72C34B64422A8253AE42 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		7062E497265B4FFCA26B0214 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A163D6DBA1674F7B8419B584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0FA8120CFA4DA4B1B9E442 /* again-sampleaccurate */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8F72C34B64422A8253AE42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CFB9F62A57D642E8B1D5F048 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				862708D6B06A42E390B6935C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_controller.cpp */,
+				4B7032EF57C041F9873DF4CA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_factory.cpp */,
+				AC6B88E796CC4B8F8FDB7E37 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_processor.cpp */,
+				53F583422E3C498BA25F03A4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.cpp */,
+				8A33675C8D7546C7A61C9A54 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				206D579F12244F70BEA6BC73 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/rttransfertest.cpp */,
+				2FBAF913ECE94EA7BD33939A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/sampleaccuratetest.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D8FC887B991542839BE09CC5 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				69213F53AFBF4D93AE13191F /* again-sampleaccurate */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		E3D4180E9984469DB3A886EA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A3A0BC88DE4470BA250CCCE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa.h */,
+				E486A50F83E54BA8A9C131D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.h */,
+				68CFFB703E164568B461B28D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		ECD5AA51C75342B38B09E1F5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7062E497265B4FFCA26B0214 /* CMake Rules */,
+				06F795A7CA98400C96B77515 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83441BC4D53A4A52BD4F681D /* again-sampleaccurate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748892BA99924733B22D7FBB /* Build configuration list for PBXNativeTarget "again-sampleaccurate" */;
+			buildPhases = (
+				1BCAC19162D34DD85FA33CD5 /* CMake PreBuild Rules */,
+				3962D1C271764AFEBE040516 /* Sources */,
+				5DA832C831BE405E81F82759 /* Frameworks */,
+				DAEA8FF14035E87576BC3C61 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654A9FF56B6E46FF8921DD44 /* PBXTargetDependency */,
+			);
+			name = "again-sampleaccurate";
+			productName = "again-sampleaccurate";
+			productReference = 0D0FA8120CFA4DA4B1B9E442 /* again-sampleaccurate */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8950279486F4BE7816036D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = 414FE2BFD7034304BC91AF45 /* Build configuration list for PBXProject "smtg-vst3-again-sampleaccurate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F3F72EA43EBA4365BB691512 /* Debug */,
+				0C41754DF3254E0CBF8EF292 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6E784188832B4A38BE706951;
+			projectDirPath = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate;
+			projectRoot = "";
+			targets = (
+				FE7BACDB0A5149269CA37B41 /* ALL_BUILD */,
+				CDEC6703577749638EAAA90B /* ZERO_CHECK */,
+				83441BC4D53A4A52BD4F681D /* again-sampleaccurate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCAC19162D34DD85FA33CD5 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/again-sampleaccurate.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/again-sampleaccurate.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8496E777FD6238A04F593D82 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C6FDC186D402D72036015E24 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DAEA8FF14035E87576BC3C61 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/again-sampleaccurate.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/again-sampleaccurate.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/again-sampleaccurate.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/again-sampleaccurate.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/validator /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/again-sampleaccurate.vst3 
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/again-sampleaccurate.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/again-sampleaccurate.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/again-sampleaccurate.vst3 -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/again-sampleaccurate.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/again-sampleaccurate.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/validator  /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/again-sampleaccurate.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/again-sampleaccurate.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3962D1C271764AFEBE040516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A9BFF59CF84F6D82C40029 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_controller.cpp */,
+				BBA2EAA9BDA94BB78A92D217 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_factory.cpp */,
+				8B6723294EA6495AAD7523F8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_processor.cpp */,
+				88DDE59E39554FD182FBB5F3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.cpp */,
+				CB960F8BA6324B51B040D190 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				C6ADFF55964F41AB994EA2B4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/rttransfertest.cpp */,
+				D9D67F745952439EAB2C65DA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/sampleaccuratetest.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654A9FF56B6E46FF8921DD44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 99724F4071E245BCB6BD8E9E /* PBXContainerItemProxy */;
+		};
+		DD06CFF1BB87483989DA74DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 83C10261F0ED478DBE22C86B /* PBXContainerItemProxy */;
+		};
+		DE0251C3E91748F899477F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83441BC4D53A4A52BD4F681D /* again-sampleaccurate */;
+			targetProxy = DD1DCA0A5B524EDA8C946F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		276BF645EB0C4620804F4BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Release;
+		};
+		52921D553AB24A6398C8234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8B495810F2B242398EB068E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Debug;
+		};
+		8D62A76099594230B2544597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A755A454C85348299E5B856A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BCF32DC601AF45D39D4AC621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_sampleaccurate_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeFiles/again-sampleaccurate.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk_hosting.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-sampleaccurate";
+				PRODUCT_NAME = "again-sampleaccurate";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/again-sampleaccurate.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		F5020BB91AF540929328A8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_sampleaccurate_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeFiles/again-sampleaccurate.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk_hosting.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-sampleaccurate";
+				PRODUCT_NAME = "again-sampleaccurate";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/again-sampleaccurate.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		FDA65F586D654E28964A4D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414FE2BFD7034304BC91AF45 /* Build configuration list for PBXProject "smtg-vst3-again-sampleaccurate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B495810F2B242398EB068E0 /* Debug */,
+				276BF645EB0C4620804F4BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		748892BA99924733B22D7FBB /* Build configuration list for PBXNativeTarget "again-sampleaccurate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF32DC601AF45D39D4AC621 /* Debug */,
+				F5020BB91AF540929328A8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CD10C2E62144C918884E4FE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D62A76099594230B2544597 /* Debug */,
+				A755A454C85348299E5B856A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AEC3BBABC1D0433AAA796D6B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52921D553AB24A6398C8234F /* Debug */,
+				FDA65F586D654E28964A4D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8950279486F4BE7816036D5 /* Project object */;
+}

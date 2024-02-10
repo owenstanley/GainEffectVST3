@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDEC6703577749638EAAA90B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3ABBB3DF98BC4CCF8D2D1873 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6A5152F8911D1336FDA4B6E1 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FE7BACDB0A5149269CA37B41 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEAEC9D5C1DA4D039E8E5151 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				AFF83B4FE5E1EADA50AFC7AD /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				80199CBF0818419BA1DFB905 /* PBXTargetDependency */,
+				F2E72EFC4D494BF6880C14F7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00444373414C47848B69420F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */ = {isa = PBXBuildFile; fileRef = 1742AE111CA64648AF8DF6FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */; };
+		00E4B4D2ABCB4BBF8F032BBE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */ = {isa = PBXBuildFile; fileRef = 43440568660445F8B22080CD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */; };
+		015BAE98898049209CA4DDDD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */ = {isa = PBXBuildFile; fileRef = 1121A0C034984EC9844D562A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */; };
+		02DA5EB210BF43C69F98730D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */ = {isa = PBXBuildFile; fileRef = 584C3FDFD046414AA53196E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */; };
+		02E757DCDC1942748CDB4989 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */ = {isa = PBXBuildFile; fileRef = DB99500ABE194E978B611319 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */; };
+		031D9D27D535493E9AFAD6B3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */ = {isa = PBXBuildFile; fileRef = CE2231EBC0A141AF87EB81A3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */; };
+		040BE89F1CA147EBB99DD35D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */ = {isa = PBXBuildFile; fileRef = FA30FD548D434FEC99E3FE75 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */; };
+		0764C382F8944349969918EF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */ = {isa = PBXBuildFile; fileRef = 58C3EC38C5334CC09F967946 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */; };
+		0A34E7F5358144A2957A8E14 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */ = {isa = PBXBuildFile; fileRef = 0C7D933218ED461C99210AB8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */; };
+		0E7857D4758E48ABA02C9EA7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */ = {isa = PBXBuildFile; fileRef = 9AECB2AFBC5747CBBE182EAC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */; };
+		0E7BD58A06A54A5FA2E828CE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */ = {isa = PBXBuildFile; fileRef = 6871C139002F40D5AB500CF4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */; };
+		10258414642B4A1B90082882 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */ = {isa = PBXBuildFile; fileRef = 17BFAFB9F92A454CB82ABE95 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */; };
+		1121E83403524401BED5FE2B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */ = {isa = PBXBuildFile; fileRef = D0D65B1B3E0742EBB27B54E9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */; };
+		1172E34D0E144BF3990F6DB3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */ = {isa = PBXBuildFile; fileRef = 6D2C46E38BCD450CA9C99EF7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */; };
+		137CE2584DF348DBBB9B0CA8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */ = {isa = PBXBuildFile; fileRef = 357D491249834C82883147AA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */; };
+		13DCA6C5B7BF4957A2043669 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 12F64576E4694FE0A15151A0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */; };
+		1450959E83B4466FBC13D723 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */ = {isa = PBXBuildFile; fileRef = 8E01C43CF57A44A0B926C26B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */; };
+		1484D31ABD9749EBB571C9A5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */ = {isa = PBXBuildFile; fileRef = BD33EBBAD08F4D548E3439AC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */; };
+		198EC89915A9490AA7903E22 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */ = {isa = PBXBuildFile; fileRef = 8C828F4259A840F08E93F40A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */; };
+		1A318B2D5D9C4962959A9971 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 1B38CBC308D549429A857096 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */; };
+		1C6BAF7047644E73AD939FF8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = EEF5C6D7CFDC46348C607AA8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */; };
+		1D7BF15650D944B5B49F1E6F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */ = {isa = PBXBuildFile; fileRef = 5BBD1298AE184721AF1FF1A4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */; };
+		1D9734F12C4A41C5A54E1B23 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */ = {isa = PBXBuildFile; fileRef = F3292C7B1F4349A98F152472 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */; };
+		1E1D804735554C1BB3186B37 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */ = {isa = PBXBuildFile; fileRef = C6E0B26904FC48A58C3A6BAF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */; };
+		27B72A191DBF4874BDD99E08 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */ = {isa = PBXBuildFile; fileRef = BCB1DB4BB9A34E469FDC6B96 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */; };
+		2E90A1F90AB04137BE79430C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */ = {isa = PBXBuildFile; fileRef = 714B00EF743B4434B7ED134D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */; };
+		2ECEE257D347461297A76C4D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */ = {isa = PBXBuildFile; fileRef = F855FB52043B4D039A3978AE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */; };
+		3366D90FDC2549B59B6C21FD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */ = {isa = PBXBuildFile; fileRef = 9CEAD008FF26403ABD995C72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */; };
+		33C9ABF6342A4C8995BDBEB8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */ = {isa = PBXBuildFile; fileRef = 91B7499635D24D8A937855F7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */; };
+		3838DB7D24074460A5523F9B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */ = {isa = PBXBuildFile; fileRef = 387154AEC2BD4715A89D1D96 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */; };
+		3B75B25AF7F8496E97B92F76 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */ = {isa = PBXBuildFile; fileRef = 52756CC609DA4D26837C0231 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */; };
+		3EA0F059393A4DE3A0F85354 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */ = {isa = PBXBuildFile; fileRef = F437C63D96C94746AFCB4036 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */; };
+		3FCD237DE04B4AE49E4C0BC9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */ = {isa = PBXBuildFile; fileRef = 2EC6F4DA07C74230844D1E6D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */; };
+		3FF83C6818DD457EA8A00F02 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 21D2E595173F4AAA85C28BA5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */; };
+		43CEFF9A9454439785769F19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */ = {isa = PBXBuildFile; fileRef = 7B869B56555B44A983E28129 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */; };
+		44E17800DE2141FC81EFB7B3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */ = {isa = PBXBuildFile; fileRef = C90E884B63CF4E9DA4857532 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */; };
+		477A6F1B40C64CF48195FE95 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */ = {isa = PBXBuildFile; fileRef = 83096B3D4E81494BBB2AAE64 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */; };
+		477C2F795610477B997C216C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */ = {isa = PBXBuildFile; fileRef = 1A47063B7E67479F8F8B021C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */; };
+		4B233982FE5E4F44BBF2336D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */ = {isa = PBXBuildFile; fileRef = AC20CE1A75AB41DCAF1F5722 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */; };
+		4B3726ADEF6B49058DA6F2B9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */ = {isa = PBXBuildFile; fileRef = ECC77E7EB73F49D4961FD8D8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */; };
+		4C8136F85B424D01A72B6C38 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 1201847DA95343D38D18588D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */; };
+		51FEE325C42447649885B16E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */ = {isa = PBXBuildFile; fileRef = E3C4AB861D8D437EA0C21868 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */; };
+		5286BA6DB11541D885EC8634 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 55CBC879DF334CDB862B9BC4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */; };
+		53B0CD8734E7484887C229D4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */ = {isa = PBXBuildFile; fileRef = F171A2E6CF114B0586DA9BEF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */; };
+		5566322685254B95AFCB248A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */ = {isa = PBXBuildFile; fileRef = 20AD329766F04498B83DEE63 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */; };
+		565E0B9983C942B4A0647752 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */ = {isa = PBXBuildFile; fileRef = 95147CB66DC348D986E60491 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */; };
+		592CB599CDEF4055952902B0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */ = {isa = PBXBuildFile; fileRef = C88303F312DB460594064214 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */; };
+		5969863001AE4F3AB614A980 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */ = {isa = PBXBuildFile; fileRef = B7596EAC4D0543668D8F032B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */; };
+		5EFE4A78C29949F5B02DCADE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */ = {isa = PBXBuildFile; fileRef = E81E3CD0F28F4DCDBD986345 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */; };
+		61CC2EB477F54C739609555C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */ = {isa = PBXBuildFile; fileRef = CE4DFD76BB5A4837A20C8E9D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */; };
+		6490F2DD21FB4A5689B45732 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */ = {isa = PBXBuildFile; fileRef = A269AFDA521F496ABAAA20EB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */; };
+		6820320AE07C4496AB76B57C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */ = {isa = PBXBuildFile; fileRef = 0E143053DC0F4E31A237C424 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */; };
+		6998CDD48D734C70B8CD5606 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */ = {isa = PBXBuildFile; fileRef = E98426B28CD44F85A9B9388F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */; };
+		69E04247D4A94265BCC21C27 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */ = {isa = PBXBuildFile; fileRef = C74DCF65921D4A00BC205C65 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */; };
+		6BD530753EFC455FB075B7BF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */ = {isa = PBXBuildFile; fileRef = EC57C261D7704EDC9A546D72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */; };
+		6C09B2F8E4E245CDB90107A1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */ = {isa = PBXBuildFile; fileRef = 98D27F2690C44697803D6ECB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */; };
+		6C101E8B03B544C59ADBD923 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */ = {isa = PBXBuildFile; fileRef = E001DBD1469A402187D528CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */; };
+		6D72E38A768F4A85881D2CDE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */ = {isa = PBXBuildFile; fileRef = C4CD651CA93341C1BC3FB565 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */; };
+		6E08B1971E73480E8ADFEB55 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */ = {isa = PBXBuildFile; fileRef = A33CD951E95A490681802F8D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */; };
+		6F6799AF38034ED487A00C72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */ = {isa = PBXBuildFile; fileRef = D7A0DF1264A544A294E00FE2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */; };
+		7065023356F74CFCB1622886 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */ = {isa = PBXBuildFile; fileRef = 2062167FCE7A4055B7703C42 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */; };
+		7207F845E8184C6B86950A2E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */ = {isa = PBXBuildFile; fileRef = F4D5A38FE68B4924B1128F87 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */; };
+		7300AB92BB49422FAA429BA2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */ = {isa = PBXBuildFile; fileRef = F478F7D562C14F469F10EB62 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */; };
+		753A748A042144C99CC700F0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */ = {isa = PBXBuildFile; fileRef = BA6ED18E8EA74638BF034426 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */; };
+		7550EAEAB90A496984B850B3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */ = {isa = PBXBuildFile; fileRef = B7D54AA330F34A1496519A53 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */; };
+		7586614751D047888568F416 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */ = {isa = PBXBuildFile; fileRef = D2D159EDD6E141139139B38E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */; };
+		75B6D86511F645FCA44E66BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */ = {isa = PBXBuildFile; fileRef = AD2AED2284B74A0E8ACC4E46 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */; };
+		78A3D23FF7A64467AA05C770 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */ = {isa = PBXBuildFile; fileRef = 253CB4CC4534485388BC0BFC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */; };
+		78A7E5D4C1E641B89776EB14 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */ = {isa = PBXBuildFile; fileRef = B3C7D5B791F04A088CEAFEA9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */; };
+		78F537D064DF4097930A94CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */ = {isa = PBXBuildFile; fileRef = 2026C0A535FE4F1A97ABC94F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */; };
+		7E5317BFF34744A7934200BF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */ = {isa = PBXBuildFile; fileRef = 527951109FA9482490DD9992 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */; };
+		823ADC756C17414D80A7DB7A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */ = {isa = PBXBuildFile; fileRef = E2FAD6C605A14E56BE3E01BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */; };
+		86355894FDC84BA4A724D50E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */ = {isa = PBXBuildFile; fileRef = 5D3355E35C46467292C100E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */; };
+		8690E175558A4176BABBD0DB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */ = {isa = PBXBuildFile; fileRef = 89060F3AB6684ABA80543EB3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */; };
+		86AD11A92AEC420F85222D80 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */ = {isa = PBXBuildFile; fileRef = 2C7D5E7EFFBD4B6FB88E0C6E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */; };
+		86B8C6EED46C42449B7D0210 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 123A59052C784C369F53A059 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */; };
+		8A8FCC74FC194B52AE56A977 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */ = {isa = PBXBuildFile; fileRef = 80DFCB34A2064536B352D7D2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */; };
+		8AB66644B19940969892BF32 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */ = {isa = PBXBuildFile; fileRef = F2DD974FED424438AD349130 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */; };
+		8D237A0A64864D9584A14F9C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */ = {isa = PBXBuildFile; fileRef = E363D9E9479A4F41BD3737F6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */; };
+		8E3BBFD902AB4481A035E99A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 8D2D47FED6B54EB2B0709A1B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */; };
+		8F1BCAA248C1400E860A6CAB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */ = {isa = PBXBuildFile; fileRef = 5A1EDA8C844742EF814FF0D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */; };
+		9154706E9FEA4B2ABF9004ED /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */ = {isa = PBXBuildFile; fileRef = F319698DE4724F4984927C66 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */; };
+		974A6C9E17BE4FA1A8914E58 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */ = {isa = PBXBuildFile; fileRef = C98442DF93A64F318D304341 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */; };
+		97DB0671A57C4B14BD686566 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */ = {isa = PBXBuildFile; fileRef = 7F4539F53CAF4A4FB504563F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */; };
+		9946CD24AE654A42858C5EE3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */ = {isa = PBXBuildFile; fileRef = 590CD9D8695A4E5A861F60B0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */; };
+		999532CC280A4ED8989EF73F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = E88065A1143F41709E228298 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */; };
+		9A2115CAB987477AA797AA5F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */ = {isa = PBXBuildFile; fileRef = D56A4A04233F45DEA53B6492 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */; };
+		9C0670540DBF4EDFB59EC316 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */ = {isa = PBXBuildFile; fileRef = 97D71383F36E4C6686EE7130 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */; };
+		A0EF60A67DE54843BE9651E3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */ = {isa = PBXBuildFile; fileRef = E291452A005949B9A27990B1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */; };
+		A14DCB36BC1A47F795746302 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 06C4506476E34033A5A9B9AF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */; };
+		A164007DAF6D4CF7874B2D76 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */ = {isa = PBXBuildFile; fileRef = 6288F26C05594DBF97DE7552 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */; };
+		A6208BCB8D0B46FA8D182DCF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 96958A94505C40C49016F41B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */; };
+		A75847BD0E0E4809BFF84E6D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */ = {isa = PBXBuildFile; fileRef = 007875A37476425A984B80E8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */; };
+		A83F9004EAAF4393891FE379 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 16452156356A4AADB8596CB6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */; };
+		A8CACE01DDD0461E9C5DF6F0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */ = {isa = PBXBuildFile; fileRef = 0211BDE1F9184AF4A85646AC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */; };
+		AA63EB007F27472A95005ED4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 6FA0F0D0DAAC4037A3DE6508 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */; };
+		ADFEAC3F8B3A4B4198A01C22 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */ = {isa = PBXBuildFile; fileRef = 8207531EBA2A4FEEB09ED191 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */; };
+		AE2749FFEA2340B3902118A9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */ = {isa = PBXBuildFile; fileRef = 423351723AB441B78FDFBE28 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */; };
+		AE5A980E9B9D469A91C5B193 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */ = {isa = PBXBuildFile; fileRef = FF4E80B42967456CA41A3670 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */; };
+		AFA4BB92D23647A9B81AF386 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */ = {isa = PBXBuildFile; fileRef = 76EBC98CC1114129AAC6D433 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */; };
+		B0283E4837C44693B69AE3E7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */ = {isa = PBXBuildFile; fileRef = AB0C95B3410647E3AE63C653 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */; };
+		B1813411A6A540F5BFD2609A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */ = {isa = PBXBuildFile; fileRef = A8232F03DA0A418CA3BFDFCB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */; };
+		B1A4F30DF57D458DB8D50616 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */ = {isa = PBXBuildFile; fileRef = 4F45E4804458486C841AB073 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */; };
+		B2606CC65C864831A141AB0E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */ = {isa = PBXBuildFile; fileRef = DD9B3A5B2C374859861A71E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */; };
+		B2F8DFAC8ABF42BE93D5D73A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 53406545F2FB4B73A592F2C6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */; };
+		B588FC5B7BEC4562884509AE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */ = {isa = PBXBuildFile; fileRef = 5CE9F17EA63E45FE8A9D0C53 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */; };
+		B5F3A5CC24F040BF8A815D6B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */ = {isa = PBXBuildFile; fileRef = 83758F36AFE741FB97783011 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */; };
+		B74800523F604F0CAC1A3C35 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 2547BC4442784822A3A42A3C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */; };
+		B78A4F8755B24A09BF74F31C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 502AE47F840740CCA00B3A17 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */; };
+		BAE26B77100649DCBF65714B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */ = {isa = PBXBuildFile; fileRef = 22504EE01D294196ADC58FB0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */; };
+		BC30DB33466F401281050B58 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */ = {isa = PBXBuildFile; fileRef = 8F491593D7884FB0BF8AE21B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */; };
+		C0FAA2B5DEBC414F9C48E888 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */ = {isa = PBXBuildFile; fileRef = 6E7D9EA577B048B58F928919 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */; };
+		C32B35839754408E9FDC63A3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 41E01C64434C41A48EB64EB5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */; };
+		C4503FE78C204DC5AA780BF7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */ = {isa = PBXBuildFile; fileRef = C46321DC782642459C68A6C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */; };
+		C517B4902E4541568A155E6E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */ = {isa = PBXBuildFile; fileRef = 3B44BEF3E520431D8DBBA8E9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */; };
+		C94B2DAAD35C4CD6B8F896E8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */ = {isa = PBXBuildFile; fileRef = F8EEDEE6254B499E9A1AD38C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */; };
+		CB77AD8BB1B1467EA7C5A1B6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */ = {isa = PBXBuildFile; fileRef = 6CF76FC5C466480E8750AAC1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */; };
+		CC99705E834846D0ADEFBD39 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */ = {isa = PBXBuildFile; fileRef = E5AEC77E99DD431EB8602F92 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */; };
+		CFCF5E77276C46ADA71A7131 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = FF2C04676B5B430D9160FBC5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */; };
+		CFF2C2C4AA2848F395A10EC0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */ = {isa = PBXBuildFile; fileRef = D98D822DB8C5476E9A888536 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */; };
+		D0AC876C32EE4E05A5B6E78D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 50AFB416CC53425699899A33 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */; };
+		D17CA62EF68C4CC3B0DBC0DA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */ = {isa = PBXBuildFile; fileRef = 9722CBF295C141A79BE41F30 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */; };
+		D5EDA43E71064AE6920EDE47 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 5779476C6A5341A085A5BE21 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */; };
+		D76B57904F004BF2AC635AC7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */ = {isa = PBXBuildFile; fileRef = FC45CDCD5C294DB9B6B07A0A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */; };
+		D9190791E4C84507B7B07A39 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */ = {isa = PBXBuildFile; fileRef = 46CBD9E251A54A87A97990C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */; };
+		DA877BFAC787405BB7B4F905 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */ = {isa = PBXBuildFile; fileRef = B701E348C0A64D5686604678 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */; };
+		DB586184363B43BEAEE6019C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 900F92910B054E6B9E6C9650 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */; };
+		DF4AA9E19FD44C448DEAF7FE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */ = {isa = PBXBuildFile; fileRef = B92F197B4AC74F91B56C92EC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */; };
+		E1B002FA1F66472A94CC62E1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */ = {isa = PBXBuildFile; fileRef = 071E89E0421F4C6ABD200535 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */; };
+		E2CFE5D2C99D4AFC8A4337F0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 6279F4CD6BC94915911A96A7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */; };
+		E32F40F4E0E94810B4FC185E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */ = {isa = PBXBuildFile; fileRef = 52C85E473CBD4F558127E769 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */; };
+		E3D615A60BBD4C1296D1E362 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */ = {isa = PBXBuildFile; fileRef = 15FA68D9CCC34AF98254E043 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */; };
+		E4FDBFE62C254599A0F68990 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */ = {isa = PBXBuildFile; fileRef = 4B8AE5D4C7D444C7BC91977F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */; };
+		E58FC82C3B9944B182FD2E3E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */ = {isa = PBXBuildFile; fileRef = 8181BEA56D0D48988F375552 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */; };
+		E89A77DB9C0940ABBE82BA02 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9FFEE090115E4C629BF07DF2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */; };
+		EE675D63E29343B5B7997A84 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */ = {isa = PBXBuildFile; fileRef = F214375883BF4E59A7223B19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */; };
+		F289A50D9DEB42DB8FD6ED66 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */ = {isa = PBXBuildFile; fileRef = CD920A3BA7334F578B4F92D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */; };
+		F2AB91DAD6E4455FA47D6128 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 18B02461A4EE411483C921FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */; };
+		F54F43B49798412D84B67A3B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */ = {isa = PBXBuildFile; fileRef = 692622CD56E043B0AFC5B973 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */; };
+		F56496D1C64F40F6B7200F2B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */ = {isa = PBXBuildFile; fileRef = 44DA82C09A7A4C63AEDE3BAD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */; };
+		F664A15269A448A0B6DA935E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */ = {isa = PBXBuildFile; fileRef = 6773D5D4D29D4E47B9A4ECD8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */; };
+		F80D82EB23F64D9789D3D8DF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */ = {isa = PBXBuildFile; fileRef = DBEF399E49BA404999BBED4E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */; };
+		F84399EA4C78417A8BBDFF91 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */ = {isa = PBXBuildFile; fileRef = 6314FFEAFA4B495799AF2041 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */; };
+		F90811A7B2C44387BF1F0219 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */ = {isa = PBXBuildFile; fileRef = E503FFC8D3314D9FA47BAD7E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */; };
+		FB08D62E58A34F009D99F942 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */ = {isa = PBXBuildFile; fileRef = 8218C9C36F654BE591CFCE47 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */; };
+		FC9509CD88224DCB86BED9D2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */ = {isa = PBXBuildFile; fileRef = B3FF0D0712EB4E67B29D13CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */; };
+		FCCDD636FC7D4AEB852FFF95 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 40BB54F74EAC456892B6ED9D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		FEA7B2F3DB0E46C49712660D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 449B1EDA2BB341D4A059115D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */; };
+		FEE7471AD4A748C7A56F8D6B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */ = {isa = PBXBuildFile; fileRef = CAF82012785F4337AFD71CCC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1BD74E50639E4B53B5461F27 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FD409D0C1A07486DA545A025 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4A4DB283C82B45A385E65895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50A7E5CE2794EDF9E4FEEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4947591C62840589AACC83D;
+			remoteInfo = "mda-vst3";
+		};
+		83DEA0CE393041B1B6A36959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50A7E5CE2794EDF9E4FEEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+		DCA9DDDE0FC2472890B7BE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50A7E5CE2794EDF9E4FEEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEC6703577749638EAAA90B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007875A37476425A984B80E8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTestToneController.cpp; path = source/mdaTestToneController.cpp; sourceTree = SOURCE_ROOT; };
+		0211BDE1F9184AF4A85646AC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDynamicsController.cpp; path = source/mdaDynamicsController.cpp; sourceTree = SOURCE_ROOT; };
+		06C4506476E34033A5A9B9AF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaStereoProcessor.cpp; path = source/mdaStereoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		071E89E0421F4C6ABD200535 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSpecMeterController.h; path = source/mdaSpecMeterController.h; sourceTree = SOURCE_ROOT; };
+		0C7D933218ED461C99210AB8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoProcessor.h; path = source/mdaPianoProcessor.h; sourceTree = SOURCE_ROOT; };
+		0E143053DC0F4E31A237C424 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDynamicsProcessor.h; path = source/mdaDynamicsProcessor.h; sourceTree = SOURCE_ROOT; };
+		1121A0C034984EC9844D562A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDX10Processor.cpp; path = source/mdaDX10Processor.cpp; sourceTree = SOURCE_ROOT; };
+		1201847DA95343D38D18588D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSubSynthProcessor.cpp; path = source/mdaSubSynthProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		123A59052C784C369F53A059 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLoudnessProcessor.cpp; path = source/mdaLoudnessProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		12F64576E4694FE0A15151A0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaPianoProcessor.cpp; path = source/mdaPianoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		15FA68D9CCC34AF98254E043 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLoudnessProcessor.h; path = source/mdaLoudnessProcessor.h; sourceTree = SOURCE_ROOT; };
+		16452156356A4AADB8596CB6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDynamicsProcessor.cpp; path = source/mdaDynamicsProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		1742AE111CA64648AF8DF6FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLimiterProcessor.h; path = source/mdaLimiterProcessor.h; sourceTree = SOURCE_ROOT; };
+		17BFAFB9F92A454CB82ABE95 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBaseProcessor.h; path = source/mdaBaseProcessor.h; sourceTree = SOURCE_ROOT; };
+		18B02461A4EE411483C921FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBaseProcessor.cpp; path = source/mdaBaseProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		1A47063B7E67479F8F8B021C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaAmbienceController.cpp; path = source/mdaAmbienceController.cpp; sourceTree = SOURCE_ROOT; };
+		1B38CBC308D549429A857096 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaAmbienceProcessor.cpp; path = source/mdaAmbienceProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		2026C0A535FE4F1A97ABC94F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDelayProcessor.h; path = source/mdaDelayProcessor.h; sourceTree = SOURCE_ROOT; };
+		2062167FCE7A4055B7703C42 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaJX10Processor.h; path = source/mdaJX10Processor.h; sourceTree = SOURCE_ROOT; };
+		20AD329766F04498B83DEE63 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBandistoController.h; path = source/mdaBandistoController.h; sourceTree = SOURCE_ROOT; };
+		21D2E595173F4AAA85C28BA5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLeslieProcessor.cpp; path = source/mdaLeslieProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		22504EE01D294196ADC58FB0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRingModController.cpp; path = source/mdaRingModController.cpp; sourceTree = SOURCE_ROOT; };
+		253CB4CC4534485388BC0BFC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLoudnessController.h; path = source/mdaLoudnessController.h; sourceTree = SOURCE_ROOT; };
+		2547BC4442784822A3A42A3C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSplitterProcessor.cpp; path = source/mdaSplitterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		2C7D5E7EFFBD4B6FB88E0C6E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaJX10Processor.cpp; path = source/mdaJX10Processor.cpp; sourceTree = SOURCE_ROOT; };
+		2EC6F4DA07C74230844D1E6D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaMultiBandController.cpp; path = source/mdaMultiBandController.cpp; sourceTree = SOURCE_ROOT; };
+		357D491249834C82883147AA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaMultiBandProcessor.h; path = source/mdaMultiBandProcessor.h; sourceTree = SOURCE_ROOT; };
+		387154AEC2BD4715A89D1D96 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRezFilterProcessor.h; path = source/mdaRezFilterProcessor.h; sourceTree = SOURCE_ROOT; };
+		3B44BEF3E520431D8DBBA8E9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDegradeProcessor.h; path = source/mdaDegradeProcessor.h; sourceTree = SOURCE_ROOT; };
+		40BB54F74EAC456892B6ED9D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		41E01C64434C41A48EB64EB5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRePsychoProcessor.cpp; path = source/mdaRePsychoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		423351723AB441B78FDFBE28 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLeslieProcessor.h; path = source/mdaLeslieProcessor.h; sourceTree = SOURCE_ROOT; };
+		43440568660445F8B22080CD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTrackerProcessor.h; path = source/mdaTrackerProcessor.h; sourceTree = SOURCE_ROOT; };
+		449B1EDA2BB341D4A059115D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDeEsserProcessor.cpp; path = source/mdaDeEsserProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		44DA82C09A7A4C63AEDE3BAD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaComboController.cpp; path = source/mdaComboController.cpp; sourceTree = SOURCE_ROOT; };
+		46CBD9E251A54A87A97990C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDynamicsController.h; path = source/mdaDynamicsController.h; sourceTree = SOURCE_ROOT; };
+		4B8AE5D4C7D444C7BC91977F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTalkBoxController.cpp; path = source/mdaTalkBoxController.cpp; sourceTree = SOURCE_ROOT; };
+		4D14272A8AF048E0B0A66F36 /* mda-vst3 */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "mda-vst3.bundle/Contents/MacOS/mda-vst3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F45E4804458486C841AB073 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaComboProcessor.h; path = source/mdaComboProcessor.h; sourceTree = SOURCE_ROOT; };
+		502AE47F840740CCA00B3A17 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDegradeProcessor.cpp; path = source/mdaDegradeProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		50AFB416CC53425699899A33 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTestToneProcessor.cpp; path = source/mdaTestToneProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		52756CC609DA4D26837C0231 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRePsychoController.h; path = source/mdaRePsychoController.h; sourceTree = SOURCE_ROOT; };
+		527951109FA9482490DD9992 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTrackerController.cpp; path = source/mdaTrackerController.cpp; sourceTree = SOURCE_ROOT; };
+		52C85E473CBD4F558127E769 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoData.h; path = source/mdaPianoData.h; sourceTree = SOURCE_ROOT; };
+		53406545F2FB4B73A592F2C6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLimiterProcessor.cpp; path = source/mdaLimiterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		55CBC879DF334CDB862B9BC4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRoundPanProcessor.cpp; path = source/mdaRoundPanProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		5779476C6A5341A085A5BE21 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDelayProcessor.cpp; path = source/mdaDelayProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		584C3FDFD046414AA53196E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDubDelayController.h; path = source/mdaDubDelayController.h; sourceTree = SOURCE_ROOT; };
+		58C3EC38C5334CC09F967946 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSubSynthController.cpp; path = source/mdaSubSynthController.cpp; sourceTree = SOURCE_ROOT; };
+		590CD9D8695A4E5A861F60B0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDitherProcessor.h; path = source/mdaDitherProcessor.h; sourceTree = SOURCE_ROOT; };
+		5A1EDA8C844742EF814FF0D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSplitterProcessor.h; path = source/mdaSplitterProcessor.h; sourceTree = SOURCE_ROOT; };
+		5BBD1298AE184721AF1FF1A4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = helpers.h; path = source/helpers.h; sourceTree = SOURCE_ROOT; };
+		5CE9F17EA63E45FE8A9D0C53 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSpecMeterController.cpp; path = source/mdaSpecMeterController.cpp; sourceTree = SOURCE_ROOT; };
+		5D3355E35C46467292C100E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDegradeController.cpp; path = source/mdaDegradeController.cpp; sourceTree = SOURCE_ROOT; };
+		6279F4CD6BC94915911A96A7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaThruZeroProcessor.cpp; path = source/mdaThruZeroProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		6288F26C05594DBF97DE7552 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSplitterController.h; path = source/mdaSplitterController.h; sourceTree = SOURCE_ROOT; };
+		6314FFEAFA4B495799AF2041 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSubSynthController.h; path = source/mdaSubSynthController.h; sourceTree = SOURCE_ROOT; };
+		6773D5D4D29D4E47B9A4ECD8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDetuneController.cpp; path = source/mdaDetuneController.cpp; sourceTree = SOURCE_ROOT; };
+		6871C139002F40D5AB500CF4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoController.h; path = source/mdaPianoController.h; sourceTree = SOURCE_ROOT; };
+		692622CD56E043B0AFC5B973 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDetuneController.h; path = source/mdaDetuneController.h; sourceTree = SOURCE_ROOT; };
+		6CF76FC5C466480E8750AAC1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaOverdriveProcessor.h; path = source/mdaOverdriveProcessor.h; sourceTree = SOURCE_ROOT; };
+		6D2C46E38BCD450CA9C99EF7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaAmbienceController.h; path = source/mdaAmbienceController.h; sourceTree = SOURCE_ROOT; };
+		6E7D9EA577B048B58F928919 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaThruZeroController.cpp; path = source/mdaThruZeroController.cpp; sourceTree = SOURCE_ROOT; };
+		6FA0F0D0DAAC4037A3DE6508 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDitherProcessor.cpp; path = source/mdaDitherProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		714B00EF743B4434B7ED134D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSpecMeterProcessor.h; path = source/mdaSpecMeterProcessor.h; sourceTree = SOURCE_ROOT; };
+		76EBC98CC1114129AAC6D433 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDitherController.cpp; path = source/mdaDitherController.cpp; sourceTree = SOURCE_ROOT; };
+		7B869B56555B44A983E28129 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaImageController.cpp; path = source/mdaImageController.cpp; sourceTree = SOURCE_ROOT; };
+		7F4539F53CAF4A4FB504563F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSplitterController.cpp; path = source/mdaSplitterController.cpp; sourceTree = SOURCE_ROOT; };
+		80DFCB34A2064536B352D7D2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBandistoController.cpp; path = source/mdaBandistoController.cpp; sourceTree = SOURCE_ROOT; };
+		8181BEA56D0D48988F375552 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDegradeController.h; path = source/mdaDegradeController.h; sourceTree = SOURCE_ROOT; };
+		8207531EBA2A4FEEB09ED191 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		8218C9C36F654BE591CFCE47 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoData.h; path = source/mdaEPianoData.h; sourceTree = SOURCE_ROOT; };
+		83096B3D4E81494BBB2AAE64 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaJX10Controller.cpp; path = source/mdaJX10Controller.cpp; sourceTree = SOURCE_ROOT; };
+		83758F36AFE741FB97783011 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDX10Processor.h; path = source/mdaDX10Processor.h; sourceTree = SOURCE_ROOT; };
+		89060F3AB6684ABA80543EB3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoController.h; path = source/mdaEPianoController.h; sourceTree = SOURCE_ROOT; };
+		8C828F4259A840F08E93F40A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaStereoController.cpp; path = source/mdaStereoController.cpp; sourceTree = SOURCE_ROOT; };
+		8D2D47FED6B54EB2B0709A1B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTrackerProcessor.cpp; path = source/mdaTrackerProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		8E01C43CF57A44A0B926C26B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaParameter.cpp; path = source/mdaParameter.cpp; sourceTree = SOURCE_ROOT; };
+		8F491593D7884FB0BF8AE21B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRePsychoController.cpp; path = source/mdaRePsychoController.cpp; sourceTree = SOURCE_ROOT; };
+		900F92910B054E6B9E6C9650 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBandistoProcessor.cpp; path = source/mdaBandistoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		91B7499635D24D8A937855F7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLimiterController.h; path = source/mdaLimiterController.h; sourceTree = SOURCE_ROOT; };
+		95147CB66DC348D986E60491 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaAmbienceProcessor.h; path = source/mdaAmbienceProcessor.h; sourceTree = SOURCE_ROOT; };
+		96958A94505C40C49016F41B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRingModProcessor.cpp; path = source/mdaRingModProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		9722CBF295C141A79BE41F30 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdafactory.cpp; path = source/mdafactory.cpp; sourceTree = SOURCE_ROOT; };
+		97D71383F36E4C6686EE7130 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLoudnessController.cpp; path = source/mdaLoudnessController.cpp; sourceTree = SOURCE_ROOT; };
+		98D27F2690C44697803D6ECB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaShepardController.h; path = source/mdaShepardController.h; sourceTree = SOURCE_ROOT; };
+		9957ECDA70754830993465F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9AECB2AFBC5747CBBE182EAC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaImageProcessor.h; path = source/mdaImageProcessor.h; sourceTree = SOURCE_ROOT; };
+		9CEAD008FF26403ABD995C72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDitherController.h; path = source/mdaDitherController.h; sourceTree = SOURCE_ROOT; };
+		9FFEE090115E4C629BF07DF2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A269AFDA521F496ABAAA20EB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaOverdriveController.h; path = source/mdaOverdriveController.h; sourceTree = SOURCE_ROOT; };
+		A33CD951E95A490681802F8D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaStereoController.h; path = source/mdaStereoController.h; sourceTree = SOURCE_ROOT; };
+		A8232F03DA0A418CA3BFDFCB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaStereoProcessor.h; path = source/mdaStereoProcessor.h; sourceTree = SOURCE_ROOT; };
+		AB0C95B3410647E3AE63C653 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTalkBoxProcessor.h; path = source/mdaTalkBoxProcessor.h; sourceTree = SOURCE_ROOT; };
+		AC20CE1A75AB41DCAF1F5722 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDX10Controller.cpp; path = source/mdaDX10Controller.cpp; sourceTree = SOURCE_ROOT; };
+		AD2AED2284B74A0E8ACC4E46 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRezFilterController.cpp; path = source/mdaRezFilterController.cpp; sourceTree = SOURCE_ROOT; };
+		B3C7D5B791F04A088CEAFEA9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBeatBoxController.cpp; path = source/mdaBeatBoxController.cpp; sourceTree = SOURCE_ROOT; };
+		B3FF0D0712EB4E67B29D13CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaThruZeroController.h; path = source/mdaThruZeroController.h; sourceTree = SOURCE_ROOT; };
+		B701E348C0A64D5686604678 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBandistoProcessor.h; path = source/mdaBandistoProcessor.h; sourceTree = SOURCE_ROOT; };
+		B7596EAC4D0543668D8F032B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaParameter.h; path = source/mdaParameter.h; sourceTree = SOURCE_ROOT; };
+		B7D54AA330F34A1496519A53 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLeslieController.cpp; path = source/mdaLeslieController.cpp; sourceTree = SOURCE_ROOT; };
+		B92F197B4AC74F91B56C92EC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDeEsserController.cpp; path = source/mdaDeEsserController.cpp; sourceTree = SOURCE_ROOT; };
+		BA6ED18E8EA74638BF034426 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaMultiBandProcessor.cpp; path = source/mdaMultiBandProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		BCB1DB4BB9A34E469FDC6B96 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaShepardProcessor.cpp; path = source/mdaShepardProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		BD33EBBAD08F4D548E3439AC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaShepardController.cpp; path = source/mdaShepardController.cpp; sourceTree = SOURCE_ROOT; };
+		C46321DC782642459C68A6C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaEPianoController.cpp; path = source/mdaEPianoController.cpp; sourceTree = SOURCE_ROOT; };
+		C4CD651CA93341C1BC3FB565 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRoundPanController.cpp; path = source/mdaRoundPanController.cpp; sourceTree = SOURCE_ROOT; };
+		C6E0B26904FC48A58C3A6BAF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDetuneProcessor.cpp; path = source/mdaDetuneProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		C74DCF65921D4A00BC205C65 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDeEsserProcessor.h; path = source/mdaDeEsserProcessor.h; sourceTree = SOURCE_ROOT; };
+		C88303F312DB460594064214 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDetuneProcessor.h; path = source/mdaDetuneProcessor.h; sourceTree = SOURCE_ROOT; };
+		C90E884B63CF4E9DA4857532 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaMultiBandController.h; path = source/mdaMultiBandController.h; sourceTree = SOURCE_ROOT; };
+		C98442DF93A64F318D304341 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRingModProcessor.h; path = source/mdaRingModProcessor.h; sourceTree = SOURCE_ROOT; };
+		CAF82012785F4337AFD71CCC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDubDelayController.cpp; path = source/mdaDubDelayController.cpp; sourceTree = SOURCE_ROOT; };
+		CD920A3BA7334F578B4F92D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaPianoController.cpp; path = source/mdaPianoController.cpp; sourceTree = SOURCE_ROOT; };
+		CE2231EBC0A141AF87EB81A3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaJX10Controller.h; path = source/mdaJX10Controller.h; sourceTree = SOURCE_ROOT; };
+		CE4DFD76BB5A4837A20C8E9D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaShepardProcessor.h; path = source/mdaShepardProcessor.h; sourceTree = SOURCE_ROOT; };
+		D0D65B1B3E0742EBB27B54E9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTrackerController.h; path = source/mdaTrackerController.h; sourceTree = SOURCE_ROOT; };
+		D2D159EDD6E141139139B38E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaOverdriveProcessor.cpp; path = source/mdaOverdriveProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		D56A4A04233F45DEA53B6492 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTestToneProcessor.h; path = source/mdaTestToneProcessor.h; sourceTree = SOURCE_ROOT; };
+		D7A0DF1264A544A294E00FE2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBaseController.cpp; path = source/mdaBaseController.cpp; sourceTree = SOURCE_ROOT; };
+		D98D822DB8C5476E9A888536 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLeslieController.h; path = source/mdaLeslieController.h; sourceTree = SOURCE_ROOT; };
+		DB99500ABE194E978B611319 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRezFilterController.h; path = source/mdaRezFilterController.h; sourceTree = SOURCE_ROOT; };
+		DBEF399E49BA404999BBED4E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBaseController.h; path = source/mdaBaseController.h; sourceTree = SOURCE_ROOT; };
+		DD9B3A5B2C374859861A71E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTalkBoxProcessor.cpp; path = source/mdaTalkBoxProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		E001DBD1469A402187D528CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaThruZeroProcessor.h; path = source/mdaThruZeroProcessor.h; sourceTree = SOURCE_ROOT; };
+		E291452A005949B9A27990B1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDelayController.h; path = source/mdaDelayController.h; sourceTree = SOURCE_ROOT; };
+		E2FAD6C605A14E56BE3E01BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDelayController.cpp; path = source/mdaDelayController.cpp; sourceTree = SOURCE_ROOT; };
+		E363D9E9479A4F41BD3737F6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDubDelayProcessor.cpp; path = source/mdaDubDelayProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		E3C4AB861D8D437EA0C21868 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaComboProcessor.cpp; path = source/mdaComboProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		E503FFC8D3314D9FA47BAD7E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDubDelayProcessor.h; path = source/mdaDubDelayProcessor.h; sourceTree = SOURCE_ROOT; };
+		E5AEC77E99DD431EB8602F92 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRoundPanController.h; path = source/mdaRoundPanController.h; sourceTree = SOURCE_ROOT; };
+		E81E3CD0F28F4DCDBD986345 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBeatBoxProcessor.cpp; path = source/mdaBeatBoxProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		E88065A1143F41709E228298 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRezFilterProcessor.cpp; path = source/mdaRezFilterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		E98426B28CD44F85A9B9388F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaImageController.h; path = source/mdaImageController.h; sourceTree = SOURCE_ROOT; };
+		EC57C261D7704EDC9A546D72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBeatBoxController.h; path = source/mdaBeatBoxController.h; sourceTree = SOURCE_ROOT; };
+		ECC77E7EB73F49D4961FD8D8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSubSynthProcessor.h; path = source/mdaSubSynthProcessor.h; sourceTree = SOURCE_ROOT; };
+		EEF5C6D7CFDC46348C607AA8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSpecMeterProcessor.cpp; path = source/mdaSpecMeterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		F171A2E6CF114B0586DA9BEF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaOverdriveController.cpp; path = source/mdaOverdriveController.cpp; sourceTree = SOURCE_ROOT; };
+		F214375883BF4E59A7223B19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRoundPanProcessor.h; path = source/mdaRoundPanProcessor.h; sourceTree = SOURCE_ROOT; };
+		F2DD974FED424438AD349130 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoProcessor.h; path = source/mdaEPianoProcessor.h; sourceTree = SOURCE_ROOT; };
+		F319698DE4724F4984927C66 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDeEsserController.h; path = source/mdaDeEsserController.h; sourceTree = SOURCE_ROOT; };
+		F3292C7B1F4349A98F152472 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBeatBoxProcessor.h; path = source/mdaBeatBoxProcessor.h; sourceTree = SOURCE_ROOT; };
+		F437C63D96C94746AFCB4036 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRingModController.h; path = source/mdaRingModController.h; sourceTree = SOURCE_ROOT; };
+		F478F7D562C14F469F10EB62 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRePsychoProcessor.h; path = source/mdaRePsychoProcessor.h; sourceTree = SOURCE_ROOT; };
+		F4D5A38FE68B4924B1128F87 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaComboController.h; path = source/mdaComboController.h; sourceTree = SOURCE_ROOT; };
+		F855FB52043B4D039A3978AE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTalkBoxController.h; path = source/mdaTalkBoxController.h; sourceTree = SOURCE_ROOT; };
+		F8EEDEE6254B499E9A1AD38C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDX10Controller.h; path = source/mdaDX10Controller.h; sourceTree = SOURCE_ROOT; };
+		FA30FD548D434FEC99E3FE75 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLimiterController.cpp; path = source/mdaLimiterController.cpp; sourceTree = SOURCE_ROOT; };
+		FC45CDCD5C294DB9B6B07A0A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTestToneController.h; path = source/mdaTestToneController.h; sourceTree = SOURCE_ROOT; };
+		FF2C04676B5B430D9160FBC5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaEPianoProcessor.cpp; path = source/mdaEPianoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		FF4E80B42967456CA41A3670 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaImageProcessor.cpp; path = source/mdaImageProcessor.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D8615756F6D451AA4631278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0359942D76024B8CAE890B9E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0CD92245B9EF4E188CAF97C6 /* CMake Rules */,
+				9957ECDA70754830993465F1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		08E07F3B7449475EB85A27C5 = {
+			isa = PBXGroup;
+			children = (
+				A7E1477B8DD3426B90045E08 /* PlugInExamples */,
+				0359942D76024B8CAE890B9E /* ALL_BUILD */,
+				296B48DEF4DE4806B93E5ACE /* Products */,
+				42660714199344A6AF0EBC4D /* Frameworks */,
+				BFB3A1309C8049429886882E /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		0CD92245B9EF4E188CAF97C6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		296B48DEF4DE4806B93E5ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D14272A8AF048E0B0A66F36 /* mda-vst3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AEB56BF330A425EAC9D18B1 /* mda-vst3 */ = {
+			isa = PBXGroup;
+			children = (
+				F22691F182EB4ABD834EABD1 /* Header Files */,
+				82457FCCCDB04763B154FE41 /* Source Files */,
+				9FFEE090115E4C629BF07DF2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */,
+			);
+			name = "mda-vst3";
+			sourceTree = "<group>";
+		};
+		42660714199344A6AF0EBC4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82457FCCCDB04763B154FE41 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A47063B7E67479F8F8B021C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */,
+				1B38CBC308D549429A857096 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */,
+				80DFCB34A2064536B352D7D2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */,
+				900F92910B054E6B9E6C9650 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */,
+				D7A0DF1264A544A294E00FE2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */,
+				18B02461A4EE411483C921FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */,
+				B3C7D5B791F04A088CEAFEA9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */,
+				E81E3CD0F28F4DCDBD986345 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */,
+				44DA82C09A7A4C63AEDE3BAD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */,
+				E3C4AB861D8D437EA0C21868 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */,
+				AC20CE1A75AB41DCAF1F5722 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */,
+				1121A0C034984EC9844D562A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */,
+				B92F197B4AC74F91B56C92EC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */,
+				449B1EDA2BB341D4A059115D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */,
+				5D3355E35C46467292C100E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */,
+				502AE47F840740CCA00B3A17 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */,
+				E2FAD6C605A14E56BE3E01BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */,
+				5779476C6A5341A085A5BE21 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */,
+				6773D5D4D29D4E47B9A4ECD8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */,
+				C6E0B26904FC48A58C3A6BAF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */,
+				76EBC98CC1114129AAC6D433 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */,
+				6FA0F0D0DAAC4037A3DE6508 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */,
+				CAF82012785F4337AFD71CCC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */,
+				E363D9E9479A4F41BD3737F6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */,
+				0211BDE1F9184AF4A85646AC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */,
+				16452156356A4AADB8596CB6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */,
+				C46321DC782642459C68A6C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */,
+				FF2C04676B5B430D9160FBC5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */,
+				7B869B56555B44A983E28129 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */,
+				FF4E80B42967456CA41A3670 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */,
+				83096B3D4E81494BBB2AAE64 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */,
+				2C7D5E7EFFBD4B6FB88E0C6E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */,
+				B7D54AA330F34A1496519A53 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */,
+				21D2E595173F4AAA85C28BA5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */,
+				FA30FD548D434FEC99E3FE75 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */,
+				53406545F2FB4B73A592F2C6 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */,
+				97D71383F36E4C6686EE7130 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */,
+				123A59052C784C369F53A059 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */,
+				2EC6F4DA07C74230844D1E6D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */,
+				BA6ED18E8EA74638BF034426 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */,
+				F171A2E6CF114B0586DA9BEF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */,
+				D2D159EDD6E141139139B38E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */,
+				8E01C43CF57A44A0B926C26B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */,
+				CD920A3BA7334F578B4F92D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */,
+				12F64576E4694FE0A15151A0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */,
+				8F491593D7884FB0BF8AE21B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */,
+				41E01C64434C41A48EB64EB5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */,
+				AD2AED2284B74A0E8ACC4E46 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */,
+				E88065A1143F41709E228298 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */,
+				22504EE01D294196ADC58FB0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */,
+				96958A94505C40C49016F41B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */,
+				C4CD651CA93341C1BC3FB565 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */,
+				55CBC879DF334CDB862B9BC4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */,
+				BD33EBBAD08F4D548E3439AC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */,
+				BCB1DB4BB9A34E469FDC6B96 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */,
+				5CE9F17EA63E45FE8A9D0C53 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */,
+				EEF5C6D7CFDC46348C607AA8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */,
+				7F4539F53CAF4A4FB504563F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */,
+				2547BC4442784822A3A42A3C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */,
+				8C828F4259A840F08E93F40A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */,
+				06C4506476E34033A5A9B9AF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */,
+				58C3EC38C5334CC09F967946 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */,
+				1201847DA95343D38D18588D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */,
+				4B8AE5D4C7D444C7BC91977F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */,
+				DD9B3A5B2C374859861A71E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */,
+				007875A37476425A984B80E8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */,
+				50AFB416CC53425699899A33 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */,
+				6E7D9EA577B048B58F928919 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */,
+				6279F4CD6BC94915911A96A7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */,
+				527951109FA9482490DD9992 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */,
+				8D2D47FED6B54EB2B0709A1B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */,
+				9722CBF295C141A79BE41F30 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */,
+				40BB54F74EAC456892B6ED9D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A7E1477B8DD3426B90045E08 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB56BF330A425EAC9D18B1 /* mda-vst3 */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		BFB3A1309C8049429886882E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F22691F182EB4ABD834EABD1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BBD1298AE184721AF1FF1A4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */,
+				6D2C46E38BCD450CA9C99EF7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */,
+				95147CB66DC348D986E60491 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */,
+				20AD329766F04498B83DEE63 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */,
+				B701E348C0A64D5686604678 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */,
+				DBEF399E49BA404999BBED4E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */,
+				17BFAFB9F92A454CB82ABE95 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */,
+				EC57C261D7704EDC9A546D72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */,
+				F3292C7B1F4349A98F152472 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */,
+				F4D5A38FE68B4924B1128F87 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */,
+				4F45E4804458486C841AB073 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */,
+				F8EEDEE6254B499E9A1AD38C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */,
+				83758F36AFE741FB97783011 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */,
+				F319698DE4724F4984927C66 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */,
+				C74DCF65921D4A00BC205C65 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */,
+				8181BEA56D0D48988F375552 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */,
+				3B44BEF3E520431D8DBBA8E9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */,
+				E291452A005949B9A27990B1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */,
+				2026C0A535FE4F1A97ABC94F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */,
+				692622CD56E043B0AFC5B973 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */,
+				C88303F312DB460594064214 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */,
+				9CEAD008FF26403ABD995C72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */,
+				590CD9D8695A4E5A861F60B0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */,
+				584C3FDFD046414AA53196E2 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */,
+				E503FFC8D3314D9FA47BAD7E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */,
+				46CBD9E251A54A87A97990C7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */,
+				0E143053DC0F4E31A237C424 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */,
+				89060F3AB6684ABA80543EB3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */,
+				8218C9C36F654BE591CFCE47 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */,
+				F2DD974FED424438AD349130 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */,
+				E98426B28CD44F85A9B9388F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */,
+				9AECB2AFBC5747CBBE182EAC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */,
+				CE2231EBC0A141AF87EB81A3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */,
+				2062167FCE7A4055B7703C42 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */,
+				D98D822DB8C5476E9A888536 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */,
+				423351723AB441B78FDFBE28 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */,
+				91B7499635D24D8A937855F7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */,
+				1742AE111CA64648AF8DF6FC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */,
+				253CB4CC4534485388BC0BFC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */,
+				15FA68D9CCC34AF98254E043 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */,
+				C90E884B63CF4E9DA4857532 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */,
+				357D491249834C82883147AA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */,
+				A269AFDA521F496ABAAA20EB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */,
+				6CF76FC5C466480E8750AAC1 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */,
+				B7596EAC4D0543668D8F032B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */,
+				6871C139002F40D5AB500CF4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */,
+				52C85E473CBD4F558127E769 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */,
+				0C7D933218ED461C99210AB8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */,
+				52756CC609DA4D26837C0231 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */,
+				F478F7D562C14F469F10EB62 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */,
+				DB99500ABE194E978B611319 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */,
+				387154AEC2BD4715A89D1D96 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */,
+				F437C63D96C94746AFCB4036 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */,
+				C98442DF93A64F318D304341 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */,
+				E5AEC77E99DD431EB8602F92 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */,
+				F214375883BF4E59A7223B19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */,
+				98D27F2690C44697803D6ECB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */,
+				CE4DFD76BB5A4837A20C8E9D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */,
+				071E89E0421F4C6ABD200535 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */,
+				714B00EF743B4434B7ED134D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */,
+				6288F26C05594DBF97DE7552 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */,
+				5A1EDA8C844742EF814FF0D9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */,
+				A33CD951E95A490681802F8D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */,
+				A8232F03DA0A418CA3BFDFCB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */,
+				6314FFEAFA4B495799AF2041 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */,
+				ECC77E7EB73F49D4961FD8D8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */,
+				F855FB52043B4D039A3978AE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */,
+				AB0C95B3410647E3AE63C653 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */,
+				FC45CDCD5C294DB9B6B07A0A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */,
+				D56A4A04233F45DEA53B6492 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */,
+				B3FF0D0712EB4E67B29D13CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */,
+				E001DBD1469A402187D528CC /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */,
+				D0D65B1B3E0742EBB27B54E9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */,
+				43440568660445F8B22080CD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */,
+				8207531EBA2A4FEEB09ED191 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4947591C62840589AACC83D /* mda-vst3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F14AFABEF504B8A90276784 /* Build configuration list for PBXNativeTarget "mda-vst3" */;
+			buildPhases = (
+				0620253B905EDD25EB93C27F /* CMake PreBuild Rules */,
+				62A618E371584D0988B74E15 /* Sources */,
+				8D8615756F6D451AA4631278 /* Frameworks */,
+				115E173746B86C6AB47D36A6 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6A9D4677AF4D5DADC56C12 /* PBXTargetDependency */,
+			);
+			name = "mda-vst3";
+			productName = "mda-vst3";
+			productReference = 4D14272A8AF048E0B0A66F36 /* mda-vst3 */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E50A7E5CE2794EDF9E4FEEC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = 3E5781D3624947CAAE0144E8 /* Build configuration list for PBXProject "smtg-vst3-mda" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FD409D0C1A07486DA545A025 /* Debug */,
+				1BD74E50639E4B53B5461F27 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 08E07F3B7449475EB85A27C5;
+			projectDirPath = "/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3";
+			projectRoot = "";
+			targets = (
+				FE7BACDB0A5149269CA37B41 /* ALL_BUILD */,
+				CDEC6703577749638EAAA90B /* ZERO_CHECK */,
+				C4947591C62840589AACC83D /* mda-vst3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0620253B905EDD25EB93C27F /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/mda-vst3.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/mda-vst3.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		115E173746B86C6AB47D36A6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/mda-vst3.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/mda-vst3.vst3 -compat /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/resource/vst3_compatibility.json -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Debug/validator /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/mda-vst3.vst3 
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug/mda-vst3.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  codesign --force --verbose --sign - /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/mda-vst3.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/moduleinfotool -create -version 3.7.9.0 -path /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/mda-vst3.vst3 -compat /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/resource/vst3_compatibility.json -output /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  codesign -f -s - -v /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/bin
+  /Users/owen/Documents/coding/plugins/GainEffect/build/bin/Release/validator  /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/mda-vst3.vst3
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/owen/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release/mda-vst3.vst3 /Users/owen/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6A5152F8911D1336FDA4B6E1 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  make -f /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AFF83B4FE5E1EADA50AFC7AD /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62A618E371584D0988B74E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477C2F795610477B997C216C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */,
+				1A318B2D5D9C4962959A9971 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */,
+				8A8FCC74FC194B52AE56A977 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */,
+				DB586184363B43BEAEE6019C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */,
+				6F6799AF38034ED487A00C72 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */,
+				F2AB91DAD6E4455FA47D6128 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */,
+				78A7E5D4C1E641B89776EB14 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */,
+				5EFE4A78C29949F5B02DCADE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */,
+				F56496D1C64F40F6B7200F2B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */,
+				51FEE325C42447649885B16E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */,
+				4B233982FE5E4F44BBF2336D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */,
+				015BAE98898049209CA4DDDD /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */,
+				DF4AA9E19FD44C448DEAF7FE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */,
+				FEA7B2F3DB0E46C49712660D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */,
+				86355894FDC84BA4A724D50E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */,
+				B78A4F8755B24A09BF74F31C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */,
+				823ADC756C17414D80A7DB7A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */,
+				D5EDA43E71064AE6920EDE47 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */,
+				F664A15269A448A0B6DA935E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */,
+				1E1D804735554C1BB3186B37 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */,
+				AFA4BB92D23647A9B81AF386 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */,
+				AA63EB007F27472A95005ED4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */,
+				FEE7471AD4A748C7A56F8D6B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */,
+				8D237A0A64864D9584A14F9C /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */,
+				A8CACE01DDD0461E9C5DF6F0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */,
+				A83F9004EAAF4393891FE379 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */,
+				C4503FE78C204DC5AA780BF7 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */,
+				CFCF5E77276C46ADA71A7131 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */,
+				43CEFF9A9454439785769F19 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */,
+				AE5A980E9B9D469A91C5B193 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */,
+				477A6F1B40C64CF48195FE95 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */,
+				86AD11A92AEC420F85222D80 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */,
+				7550EAEAB90A496984B850B3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */,
+				3FF83C6818DD457EA8A00F02 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */,
+				040BE89F1CA147EBB99DD35D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */,
+				B2F8DFAC8ABF42BE93D5D73A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */,
+				9C0670540DBF4EDFB59EC316 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */,
+				86B8C6EED46C42449B7D0210 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */,
+				3FCD237DE04B4AE49E4C0BC9 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */,
+				753A748A042144C99CC700F0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */,
+				53B0CD8734E7484887C229D4 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */,
+				7586614751D047888568F416 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */,
+				1450959E83B4466FBC13D723 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */,
+				F289A50D9DEB42DB8FD6ED66 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */,
+				13DCA6C5B7BF4957A2043669 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */,
+				BC30DB33466F401281050B58 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */,
+				C32B35839754408E9FDC63A3 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */,
+				75B6D86511F645FCA44E66BB /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */,
+				999532CC280A4ED8989EF73F /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */,
+				BAE26B77100649DCBF65714B /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */,
+				A6208BCB8D0B46FA8D182DCF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */,
+				6D72E38A768F4A85881D2CDE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */,
+				5286BA6DB11541D885EC8634 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */,
+				1484D31ABD9749EBB571C9A5 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */,
+				27B72A191DBF4874BDD99E08 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */,
+				B588FC5B7BEC4562884509AE /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */,
+				1C6BAF7047644E73AD939FF8 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */,
+				97DB0671A57C4B14BD686566 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */,
+				B74800523F604F0CAC1A3C35 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */,
+				198EC89915A9490AA7903E22 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */,
+				A14DCB36BC1A47F795746302 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */,
+				0764C382F8944349969918EF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */,
+				4C8136F85B424D01A72B6C38 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */,
+				E4FDBFE62C254599A0F68990 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */,
+				B2606CC65C864831A141AB0E /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */,
+				A75847BD0E0E4809BFF84E6D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */,
+				D0AC876C32EE4E05A5B6E78D /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */,
+				C0FAA2B5DEBC414F9C48E888 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */,
+				E2CFE5D2C99D4AFC8A4337F0 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */,
+				7E5317BFF34744A7934200BF /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */,
+				8E3BBFD902AB4481A035E99A /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */,
+				D17CA62EF68C4CC3B0DBC0DA /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */,
+				FCCDD636FC7D4AEB852FFF95 /* /Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D6A9D4677AF4D5DADC56C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = DCA9DDDE0FC2472890B7BE18 /* PBXContainerItemProxy */;
+		};
+		80199CBF0818419BA1DFB905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4947591C62840589AACC83D /* mda-vst3 */;
+			targetProxy = 4A4DB283C82B45A385E65895 /* PBXContainerItemProxy */;
+		};
+		F2E72EFC4D494BF6880C14F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEC6703577749638EAAA90B /* ZERO_CHECK */;
+			targetProxy = 83DEA0CE393041B1B6A36959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B525BCD9C1405A8F88E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0B3A334E902545C4B7695D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",mda_vst3_EXPORTS,SMTG_MDA_VST2_COMPATIBILITY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,"/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3",/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeFiles/mda-vst3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.mda-vst3";
+				PRODUCT_NAME = "mda-vst3";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/mda-vst3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		51CCE8F98A9843A7A0DDCF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Debug;
+		};
+		8B626227CB284495A7183397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BF1F2A6AE555431EB796F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/owen/Documents/coding/plugins/GainEffect/build/build;
+			};
+			name = Release;
+		};
+		F00426BB0B524949AD3971CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F835AAA324AC4AE5A04FEF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FC2B28D3E6BD4F74BE95A528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/owen/Documents/coding/plugins/GainEffect/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",mda_vst3_EXPORTS,SMTG_MDA_VST2_COMPATIBILITY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk,"/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3",/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/public.sdk/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/base/..,/Users/owen/Documents/coding/plugins/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/owen/Documents/coding/plugins/GainEffect/build/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeFiles/mda-vst3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libsdk_common.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libbase.a,/Users/owen/Documents/coding/plugins/GainEffect/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.mda-vst3";
+				PRODUCT_NAME = "mda-vst3";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/owen/Documents/coding/plugins/GainEffect/build/build/mda-vst3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F14AFABEF504B8A90276784 /* Build configuration list for PBXNativeTarget "mda-vst3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2B28D3E6BD4F74BE95A528 /* Debug */,
+				0B3A334E902545C4B7695D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3ABBB3DF98BC4CCF8D2D1873 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00426BB0B524949AD3971CC /* Debug */,
+				8B626227CB284495A7183397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E5781D3624947CAAE0144E8 /* Build configuration list for PBXProject "smtg-vst3-mda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51CCE8F98A9843A7A0DDCF29 /* Debug */,
+				BF1F2A6AE555431EB796F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEAEC9D5C1DA4D039E8E5151 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B525BCD9C1405A8F88E72E /* Debug */,
+				F835AAA324AC4AE5A04FEF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E50A7E5CE2794EDF9E4FEEC3 /* Project object */;
+}
